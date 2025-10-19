@@ -583,7 +583,7 @@ html::-webkit-scrollbar-button:end:increment:vertical:increment {
   --shadow: 0 1px 2px rgba(0,0,0,.2), 0 6px 18px rgba(0,0,0,.25);
 
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: var(--gap);
   align-items: stretch;
   width: 100%;
@@ -654,9 +654,17 @@ html::-webkit-scrollbar-button:end:increment:vertical:increment {
   letter-spacing: 0.5px;
 }
 
-/* Smaller tiles on narrow screens */
-@media (max-width: 600px) {
-  .games-gallery { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); }
+/* Responsive column count adjustments */
+@media (max-width: 1080px) {
+  .games-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 720px) {
+  .games-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 480px) {
+  .games-gallery { grid-template-columns: 1fr; }
   .game-title { font-size: 1em; }
 }
 
