@@ -6,34 +6,8 @@
     <meta charset="utf-8">
     <title>{{ page.title }} - {{ site.title }}</title>
     <link rel="stylesheet" href="{{ "assets/css/alt.css" | relative_url }}">
-    <script type="text/javascript" src="/assets/js/randoText404.js"></script>
-    <script type="text/javascript" src="/assets/js/BGM.js"></script>
-    <script>
-    function loadJSON(src) {
-      return fetch(src).then(res => {
-        if (!res.ok) throw new Error(`Failed to load ${src}`);
-        return res.json();
-      });
-    }
-
-    Promise.all([
-      loadJSON('/assets/js/json/error.json')
-    ]).then(([updates, lines]) => {
-      window.updatesData = updates;
-      window.linesData = lines;
-      // Now load the rest of the scripts
-      var scripts = [
-        '/assets/js/randoText404.js',
-      ];
-      scripts.forEach(function(src) {
-        var s = document.createElement('script');
-        s.src = src;
-        document.head.appendChild(s);
-      });
-    }).catch(err => {
-      console.error('Error loading JSON:', err);
-    });
-  </script>
+    <script type="text/javascript" src="/assets/js/randoText404.js" defer></script>
+    <script type="text/javascript" src="/assets/js/BGM.js" defer></script>
   {% if page.type == 'flash' %}
     <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
   {% endif %}
