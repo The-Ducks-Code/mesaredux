@@ -1,22 +1,24 @@
 [
   "Sept. 23, 2025 - Great revival of 2025 after over a year of inactivity.",
-  "Sept. 25, 2025 - Site Layout Overhaul.",
+  "Sept. 25, 2025 - Site Layout Overhaul. - grey",
   "Oct. 3, 2025 - MESλREDUX Released!",
-  "Oct. 4, 2025 - Added Subgame Indexes",
-  "Oct. 5, 2025 - Added Portal Flash Series",
-  "Oct. 5, 2025 - Added DOSbox support",
-  "Oct. 5, 2025 - Added DOOM Series and Duke Nukem 3D",
-  "Oct. 6, 2025 - Updated Background",
-  "Oct. 8, 2025 - Added BGM Player & Downsized Webring",
-  "Oct. 8, 2025 - Added Happy Wheels",
-  "Oct. 8, 2025 - Fixed Half-Life",
-  "Oct. 10, 2025 - Added Run 1-3",
+  "Oct. 4, 2025 - Added Subgame Indexes - grey",
+  "Oct. 5, 2025 - Added Portal Flash Series - grey",
+  "Oct. 5, 2025 - Added DOSbox support - grey",
+  "Oct. 5, 2025 - Added DOOM Series and Duke Nukem 3D - grey",
+  "Oct. 6, 2025 - Updated Background - grey",
+  "Oct. 8, 2025 - Added BGM Player & Downsized Webring - grey",
+  "Oct. 8, 2025 - Added Happy Wheels - grey",
+  "Oct. 8, 2025 - Fixed Half-Life - grey",
+  "Oct. 10, 2025 - Added Run 1-3 - slash & grey",
   "Oct. 11, 2025 - Added Super Mario 64 - duck",
   "Oct. 18, 2025 - Added Ruffle + Test WebRetro - duck",
   "Oct. 18, 2025 - Replaced WebRetro with EmulatorJS + Added Tetris DX and Mario Kart DS - duck",
   "Oct. 19, 2025 - Reworked backend to allow for nested indexes - grey",
   "Oct. 19, 2025 - Added Pokémon Gens 1-3 - grey",
-  "Oct. 19, 2025 - Added Achievement Unlocked + Mari0 - duck"
+  "Oct. 19, 2025 - Added Achievement Unlocked + Mari0 - duck",
+  "Oct. 19, 2025 - Assets fallback system implemented - grey",
+  "Oct. 19, 2025 - Better visibility on about + games pages - duck & grey"
 
 
 ]
