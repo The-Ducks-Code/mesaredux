@@ -165,7 +165,7 @@ center {
   background: none;
   top: 0;
   margin: 0 auto;
-  width: 1070px;
+  width: 870px;
   }
   
 .sidebar-left, .sidebar-right {
@@ -173,7 +173,7 @@ center {
   }
   
 .main {
-  width: 700px;
+  width: 500px;
   margin-left: 185px;
   }
   

@@ -18,7 +18,11 @@
 <body>
 
   <audio id="BGM" preload="auto" loop data-track-list="{{ "/assets/js/json/playlist.json" | relative_url }}"></audio>
+  {% if page.title == "games" or page.title == "about" %}
+  <div class="wrapper" style="width: 1070px;">
+  {% else %}
   <div class="wrapper">
+  {% endif %}
   <div class="header">
   <div class="header-shadow">
   <img src="/assets/images/banner.png" alt="header image">
@@ -56,8 +60,12 @@
   </div>
   
   <div class="wrapper-2">
-  
-  <div class="main"><div class="box">  
+  {% if page.title == "games" or page.title == "about" %}
+    <div class="main" style="width: 700px;">
+  {% else %}
+  <div class="main">
+  {% endif %}
+    <div class="box">  
     {% assign header_text = page.header %}
     {% if header_text == nil or header_text == "" %}
       {% assign base_title = page.title | default: site.title %}
