@@ -9,4 +9,8 @@ header3: "<div style='display: flex; justify-content: space-between; align-items
     <sub><a href='/games' style='text-align: right;'>SEE ALL</a></sub></div>"
 ---
 
+<div id="mirror-alert"></div>
+
 #### The team behind blockbuster sites such as **The Mesa Complex**, [Swordslasher.com](https://swordslasher.com/), and [BoredHTML](https://bored.pisaucer.com/) proudly presents this project—a definitive and scalable redux of The Mesa Complex, representing the culmination of our last six years of work!
+
+<script src="/assets/js/mirrorAlert.js" defer></script>
