@@ -77,6 +77,11 @@
             </div>
             <button id="fullscreen-btn" style="margin-top:10px;">Fullscreen</button>
     {% elsif game_type == 'retroarch' %}
+              <script>
+              window.addEventListener('load', function() {
+                alert("IN ORDER FOR THIS GAME TO WORK YOU MUST CLICK THE RESTART BUTTON!");
+              });
+              </script>
              <div class="fullscreen-center-wrapper" id="fullscreen-wrapper">
              <iframe id="game-iframe" srcdoc='
              <!DOCTYPE html>
@@ -105,7 +110,8 @@
               </html>
             ' allow="fullscreen" allowfullscreen></iframe>
             </div>
-            <button id="fullscreen-btn" style="margin-top:10px;">Fullscreen</button>
+            <button id="fullscreen-btn" style="margin-top:10px;">Fullscreen</button><br>
+            <sub>IN ORDER FOR THIS GAME TO WORK YOU MUST CLICK THE RESTART BUTTON!</sub>
     {% elsif game_type == 'dos' %}
             <div class="fullscreen-center-wrapper" id="fullscreen-wrapper">
              <iframe id="game-iframe" srcdoc='

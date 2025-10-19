@@ -12,6 +12,21 @@
   {% endif %}
 {% endif %}
 {% assign current_prefix = current_game_group | append: '/' %}
+{% assign expected_child_limit = current_limit | plus: 1 %}
+{% if current_game_group == '' %}
+  {% assign current_branch_prefix = '' %}
+{% else %}
+  {% assign current_branch_prefix = current_game_group | append: '/' %}
+{% endif %}
+{% assign current_branch_prefix_length = current_branch_prefix | size %}
+{% assign back_url = '/games' %}
+{% if page.index and current_game_group contains '/' %}
+  {% assign group_segments = current_game_group | split: '/' %}
+  {% assign parent_count = group_segments | size | minus: 1 %}
+  {% assign parent_segments = group_segments | slice: 0, parent_count %}
+  {% assign parent_group = parent_segments | join: '/' %}
+  {% assign back_url = '/games/' | append: parent_group | append: '/index' %}
+{% endif %}
 <div class="games-gallery">
   {% assign nested_games = site.games | sort: 'title' %}
   {% for game in nested_games %}
@@ -25,19 +40,25 @@
         {% assign game_limit = game_segment_count | minus: 1 %}
         {% assign parent_dir = game_segments | slice: 0, game_limit | join: '/' %}
       {% else %}
+        {% assign game_limit = 0 %}
         {% assign parent_dir = '' %}
       {% endif %}
+    {% else %}
+      {% assign game_limit = parent_dir | split: '/' | size %}
     {% endif %}
 
     {% assign should_render = false %}
     {% if game.url != page.url %}
-      {% if current_game_group == '' %}
-        {% if parent_dir contains '/' %}
-          {% assign should_render = true %}
-        {% endif %}
-      {% else %}
-        {% if parent_dir == current_game_group or parent_dir contains current_prefix %}
-          {% assign should_render = true %}
+      {% if parent_dir == current_game_group and game_limit == current_limit %}
+        {% assign should_render = true %}
+      {% elsif game_limit == expected_child_limit %}
+        {% assign parent_prefix = parent_dir | slice: 0, current_branch_prefix_length %}
+        {% if parent_prefix == current_branch_prefix %}
+          {% assign parent_length = parent_dir | size %}
+          {% assign remainder = parent_dir | slice: current_branch_prefix_length, parent_length %}
+          {% unless remainder contains '/' %}
+            {% assign should_render = true %}
+          {% endunless %}
         {% endif %}
       {% endif %}
     {% endif %}
@@ -58,5 +79,5 @@
   {% endfor %}
 </div>
 <div style="display: flex; justify-content: center; align-items: center; padding-top:10px;">
-<a href="/games" class="back">back</a>
+<a href="{{ back_url | relative_url }}" class="back">back</a>
 </div>
