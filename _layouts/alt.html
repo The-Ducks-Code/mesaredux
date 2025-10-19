@@ -6,10 +6,22 @@
     <meta charset="utf-8">
     <title>{{ page.title }} - {{ site.title }}</title>
     <link rel="stylesheet" href="{{ "assets/css/alt.css" | relative_url }}">
+    {% if page.title == "404" %}
     <script type="text/javascript" src="/assets/js/randoText404.js" defer></script>
     <script type="text/javascript" src="/assets/js/BGM.js" defer></script>
+    {% else %}
+    <script type="text/javascript" src="{{ "assets/js/resourceFallback.js" | relative_url }}"></script>
+    {% endif %}
   {% if page.type == 'flash' %}
-    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+  <script>
+    if (window.ResourceFallback && typeof window.ResourceFallback.loadScript === 'function') {
+      window.ResourceFallback.loadScript({
+        primary: 'https://unpkg.com/@ruffle-rs/ruffle',
+        fallback: '{{ "/assets/libs/ruffle/ruffle.js" | relative_url }}',
+        name: 'Ruffle'
+      });
+    }
+  </script>
   {% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}"
@@ -96,11 +108,11 @@
                     <script>
                       EJS_player = "#ejsplayer";
                       EJS_core = "{{ page.core }}";
-                      EJS_pathtodata = "/assets/emulatorjs/data";
+                      EJS_pathtodata = "/assets/libs/emulatorjs/data";
                       EJS_startOnLoaded = true;
                       EJS_gameUrl = "{{ page.url | append: 'src/game.zip' | relative_url }}";
                     </script>
-                    <script src="/assets/emulatorjs/data/loader.js"></script>
+                    <script src="/assets/libs/emulatorjs/data/loader.js"></script>
                  </body>
               </html>
             ' allow="fullscreen" allowfullscreen></iframe>
@@ -113,12 +125,11 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="https://v8.js-dos.com/latest/js-dos.css">
 <style>
   html, body { margin: 0; padding: 0; width: 100%; height: 100%; background: #000; overflow: hidden; }
   #dos-canvas { width: 100%; height: 100%; }
 </style>
-<script src="https://v8.js-dos.com/latest/js-dos.js"></script>
+<script src="{{ "/assets/js/resourceFallback.js" | relative_url }}"></script>
 </head>
 <body>
 <div id="dos-canvas"></div>
@@ -126,10 +137,14 @@
   (function () {
     var dosInstance = null;
 
-    function initDos() {
+    function bootDos() {
       var canvas = document.getElementById("dos-canvas");
-      if (!canvas || typeof Dos !== "function") {
-        console.error("js-dos canvas or library unavailable");
+      if (!canvas) {
+        console.error("js-dos canvas unavailable");
+        return;
+      }
+      if (typeof Dos !== "function") {
+        console.error("js-dos library unavailable");
         return;
       }
 
@@ -138,7 +153,7 @@
         autoStart: true,
         kiosk: true,
         autoSave: true,
-        url: "{{ page.url | append: 'src/game.jsdos' | relative_url }}",
+        url: "{{ page.url | append: 'src/game.jsdos' | relative_url }}"
       };
 
       Dos(canvas, options)
@@ -164,10 +179,33 @@
       return false;
     };
 
+    function loadDependencies() {
+      if (!window.ResourceFallback || typeof window.ResourceFallback.loadScript !== "function") {
+        setTimeout(loadDependencies, 50);
+        return;
+      }
+
+      window.ResourceFallback.loadStyle({
+        primary: "https://v8.js-dos.com/latest/js-dos.css",
+        fallback: "{{ "/assets/libs/js-dos/js-dos.css" | relative_url }}",
+        name: "js-dos styles"
+      });
+
+      window.ResourceFallback.loadScript({
+        primary: "https://v8.js-dos.com/latest/js-dos.js",
+        fallback: "{{ "/assets/libs/js-dos/js-dos.js" | relative_url }}",
+        name: "js-dos"
+      }).then(function () {
+        bootDos();
+      }).catch(function (error) {
+        console.error("Failed to load js-dos script", error);
+      });
+    }
+
     if (document.readyState === "complete" || document.readyState === "interactive") {
-      setTimeout(initDos, 0);
+      loadDependencies();
     } else {
-      window.addEventListener("DOMContentLoaded", initDos);
+      window.addEventListener("DOMContentLoaded", loadDependencies);
     }
   })();
 </script>
