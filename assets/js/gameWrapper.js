@@ -22,6 +22,27 @@
 
     var isFlashPage = gameType === 'flash';
     var isDosPage = gameType === 'dos';
+    var borderWasInline = !!(iframe.style && iframe.style.border && iframe.style.border.trim() !== '');
+    var originalBorderValue = borderWasInline ? iframe.style.border : '';
+    var borderHiddenForFullscreen = false;
+
+    function setIframeBorderHidden(hidden) {
+        if (!iframe) {
+            return;
+        }
+
+        if (hidden && !borderHiddenForFullscreen) {
+            iframe.style.border = 'none';
+            borderHiddenForFullscreen = true;
+        } else if (!hidden && borderHiddenForFullscreen) {
+            if (borderWasInline) {
+                iframe.style.border = originalBorderValue;
+            } else if (iframe.style) {
+                iframe.style.removeProperty('border');
+            }
+            borderHiddenForFullscreen = false;
+        }
+    }
 
     // Scale iframe to fit screen while preserving aspect ratio when fullscreened
     function applyFullscreenScale() {
@@ -31,10 +52,20 @@
 
         var baseW = parseInt(iframe.getAttribute('width'), 10) || iframe.offsetWidth;
         var baseH = parseInt(iframe.getAttribute('height'), 10) || iframe.offsetHeight;
-        var isFs = document.fullscreenElement === wrapper ||
-                   document.webkitFullscreenElement === wrapper ||
-                   document.mozFullScreenElement === wrapper ||
-                   document.msFullscreenElement === wrapper;
+        var fullscreenElement = document.fullscreenElement ||
+                                 document.webkitFullscreenElement ||
+                                 document.mozFullScreenElement ||
+                                 document.msFullscreenElement;
+        var isFs = fullscreenElement === wrapper;
+        var shouldHideBorder = false;
+
+        if (fullscreenElement) {
+            if (fullscreenElement === wrapper || fullscreenElement === iframe || wrapper.contains(fullscreenElement)) {
+                shouldHideBorder = true;
+            }
+        }
+
+        setIframeBorderHidden(shouldHideBorder);
 
         if (isFs && baseW && baseH) {
             iframe.style.width = baseW + 'px';
