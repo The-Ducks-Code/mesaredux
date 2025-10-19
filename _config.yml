@@ -13,6 +13,7 @@ compress_images:
   images_path:
     - "_games/**/thumb.png"
     - "_games/**/**/thumb.png"
+    - "_games/**/**/**/thumb.png"
 imageoptim:
   gifsicle: true
   jpegoptim:
