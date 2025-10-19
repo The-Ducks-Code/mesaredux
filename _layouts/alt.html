@@ -102,6 +102,36 @@
             ' allowfullscreen></iframe>
             </div>
             <button id="fullscreen-btn" style="margin-top:10px;">Fullscreen</button>
+    {% elsif game_type == 'retroarch' %}
+             <div class="fullscreen-center-wrapper" id="fullscreen-wrapper">
+             <iframe id="game-iframe" srcdoc='
+             <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <style>
+                        body, html {
+                            margin: 0;
+                            padding: 0;
+                        }
+                    </style>
+                </head>
+                <body>
+                  <div style="width:100%;height:100%;max-width:100%">
+                      <div id="ejsplayer"></div>
+                  </div>
+                    <script>
+                      EJS_player = "#ejsplayer";
+                      EJS_core = "{{ page.core }}";
+                      EJS_pathtodata = "/assets/emulatorjs/data";
+                      EJS_startOnLoaded = true;
+                      EJS_gameUrl = "{{ page.url | append: 'src/game.zip' | relative_url }}";
+                    </script>
+                    <script src="/assets/emulatorjs/data/loader.js"></script>
+                 </body>
+              </html>
+            ' allow="fullscreen" allowfullscreen></iframe>
+            </div>
+            <button id="fullscreen-btn" style="margin-top:10px;">Fullscreen</button>
     {% elsif game_type == 'dos' %}
             <div class="fullscreen-center-wrapper" id="fullscreen-wrapper">
              <iframe id="game-iframe" srcdoc='
