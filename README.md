@@ -24,8 +24,9 @@
 ---
 layout: alt (Don't touch this)
 title: "Electricman 2" (Add your games title.)
-type: flash (Set to `html` for HTML5 builds, 'dos' for js-dos packages, or `flash` for SWF content.)
-aspectRatio: "16:9" (The ideal Aspect Ratio of your game, if unsure pick from 16:9 or 4:3.)
+type: flash (Set to `html` for HTML5 builds, 'dos' for js-dos packages, retroarch for ROMs, or `flash` for SWF content.)
+core: gb (This is the system that the game you are adding is based on, refer to the [EmulatorJS Docs](https://emulatorjs.org/docs/systems) for which one to use. Only use if the layout is retroarch)
+aspectRatio: "16:9" (The ideal Aspect Ratio of your game, if unsure pick from 16:9 or 4:3. [Default for retroarch should be 16:7.75])
 description: "Battle stickman enemies with martial arts and super moves."(A brief, one sentence descriptor for your game.)
 ---
 (ENSURE YOU REMOVE CONTENT IN BRACKETS WHEN DONE)
