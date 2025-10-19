@@ -165,7 +165,7 @@ center {
   background: none;
   top: 0;
   margin: 0 auto;
-  width: 870px;
+  width: 1070px;
   }
   
 .sidebar-left, .sidebar-right {
@@ -173,7 +173,7 @@ center {
   }
   
 .main {
-  width: 500px;
+  width: 700px;
   margin-left: 185px;
   }
   
@@ -648,7 +648,7 @@ html::-webkit-scrollbar-button:end:increment:vertical:increment {
 
 .game-title {
   font-family: Seraphim, TimesNewPixel, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-  font-size: 1.05em;
+  font-size: 1.35em;
   color: var(--title-color);
   text-align: center;
   letter-spacing: 0.5px;
