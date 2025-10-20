@@ -1,5 +1,5 @@
 ---
-layout: alt
+layout: html
 title: "Plants vs. Zombies"
 type: flash
 aspectRatio: "4:3"
