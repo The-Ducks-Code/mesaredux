@@ -60,7 +60,6 @@ jobs:
           mv _site /tmp/keep_temp
           rm -rf ./*
           cp -r /tmp/keep_temp/_site/* ./
-          rm -rf /tmp/keep_temp .bundle
 
           # Commit and push
           git add -A
