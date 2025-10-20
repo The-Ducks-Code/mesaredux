@@ -4,4 +4,5 @@ title: "Doodle Jump"
 type: html
 aspectRatio: "2:3"
 description: "Doodle Jumping silliness!"
+credit: https://www.limasky.com/
 ---
