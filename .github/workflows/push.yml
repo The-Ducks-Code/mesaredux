@@ -41,7 +41,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git checkout --orphan build  # Switch to main branch
           git reset --hard            # Clear branch
-          find -mindepth 1 ! -name '_site' -exec rm -rf {} +
+          find . -mindepth 1 ! -name '_site' -exec rm -rf {} +
           cp -r _site/* .             # Copy built files
           rm -r _site
           git add .
