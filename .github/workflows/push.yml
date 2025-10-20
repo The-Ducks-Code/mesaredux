@@ -1,4 +1,4 @@
-name: Build and Deploy Jekyll to Pages
+name: Build and Deploy MESλREDUX to Pages
 
 on:
   push:
