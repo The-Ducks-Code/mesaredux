@@ -1,0 +1,33 @@
+name: Mirror MESλREDUX Updates
+
+on:
+  schedule:
+    - cron: '*/2 * * * *' # every 2 minutes
+  workflow_dispatch:
+  push:
+    branches:
+      - build
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    if: github.repository != 'Bored-Entertainment/mesaredux'
+    steps:
+      - name: Checkout the fork build branch
+        uses: actions/checkout@v4
+        with:
+          ref: build
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Add upstream remote
+        run: |
+          git remote add upstream https://github.com/Bored-Entertainment/mesaredux.git
+          git fetch upstream build
+
+      - name: Merge upstream build into fork
+        run: |
+          git checkout build
+          git reset --hard upstream/build  # mirrors exactly
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git push origin build --force
