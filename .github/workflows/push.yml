@@ -2,7 +2,7 @@ name: Build and Deploy Jekyll to Pages
 
 on:
   push:
-    branches: ["source"]  # Run when source branch is updated
+    branches: ["main"]
   workflow_dispatch:
 
 permissions:
@@ -40,12 +40,13 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git checkout --orphan main  # Switch to main branch
-          git reset --hard            # Clear main branch
+          git checkout --orphan build  # Switch to main branch
+          git reset --hard            # Clear branch
+          cp -r .gitignore .
           cp -r _site/* .             # Copy built files
           git add .
           git commit -m "Deploy site from source branch"
-          git push origin main --force  # Force push to main
+          git push origin build --force  # Force push to main
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
