@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<games exported_at="2025-10-20T18:20:50+00:00" site="MESλREDUX" url="https://mesaredux.mesagrey.ca">
+  
+  
+  <game>
+    <id>/games/2048/index</id>
+    <title>2048</title>
+    <url>https://mesaredux.mesagrey.ca/games/2048/index/</url>
+    <path>_games/2048/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>9:7</aspect_ratio>
+    <description>Join matching numbers to reach 2048 in this addictive puzzle game.</description>
+  </game>
+  
+  <game>
+    <id>/games/achievement_unlocked/index</id>
+    <title>Achievement Unlocked</title>
+    <url>https://mesaredux.mesagrey.ca/games/achievement_unlocked/index/</url>
+    <path>_games/achievement_unlocked/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>flash</type>
+    <aspect_ratio>12:6</aspect_ratio>
+    <description>Collect all of the achievements in this unique platformer!</description>
+  </game>
+  
+  <game>
+    <id>/games/bowman/bowman1/index</id>
+    <title>Bowman</title>
+    <url>https://mesaredux.mesagrey.ca/games/bowman/bowman1/index/</url>
+    <path>_games/bowman/bowman1/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>flash</type>
+    <aspect_ratio>4:3</aspect_ratio>
+    <description>Aim and shoot arrows at your opponent in this classic archery duel.</description>
+  </game>
+  
+  <game>
+    <id>/games/bowman/bowman2/index</id>
+    <title>Bowman 2</title>
+    <url>https://mesaredux.mesagrey.ca/games/bowman/bowman2/index/</url>
+    <path>_games/bowman/bowman2/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>flash</type>
+    <aspect_ratio>4:3</aspect_ratio>
+    <description>Return to the bow-and-arrow battle with new challenges.</description>
+  </game>
+  
+  <game>
+    <id>/games/bowman/index</id>
+    <title>Bowman Duology</title>
+    <url>https://mesaredux.mesagrey.ca/games/bowman/index/</url>
+    <path>_games/bowman/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio></aspect_ratio>
+    <description></description>
+  </game>
+  
+  <game>
+    <id>/games/celeste/index</id>
+    <title>Celeste Classic</title>
+    <url>https://mesaredux.mesagrey.ca/games/celeste/index/</url>
+    <path>_games/celeste/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>4:3</aspect_ratio>
+    <description>The original pico-8 version of Celeste!</description>
+  </game>
+  
+  <game>
+    <id>/games/cookieclicker/index</id>
+    <title>Cookie Clicker</title>
+    <url>https://mesaredux.mesagrey.ca/games/cookieclicker/index/</url>
+    <path>_games/cookieclicker/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>16:10</aspect_ratio>
+    <description>Classic Cookie Clicking madness!!</description>
+  </game>
+  
+  <game>
+    <id>/games/doom/doom2/index</id>
+    <title>DOOM II: Hell on Earth</title>
+    <url>https://mesaredux.mesagrey.ca/games/doom/doom2/index/</url>
+    <path>_games/doom/doom2/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>dos</type>
+    <aspect_ratio>4:3</aspect_ratio>
+    <description>Face demonic hordes in the classic second installment of the first-person shooter that defined a genre.</description>
+  </game>
+  
+  <game>
+    <id>/games/doom/index</id>
+    <title>DOOM Series</title>
+    <url>https://mesaredux.mesagrey.ca/games/doom/index/</url>
+    <path>_games/doom/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio></aspect_ratio>
+    <description></description>
+  </game>
+  
+  <game>
+    <id>/games/doodle-jump/index</id>
+    <title>Doodle Jump</title>
+    <url>https://mesaredux.mesagrey.ca/games/doodle-jump/index/</url>
+    <path>_games/doodle-jump/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>2:3</aspect_ratio>
+    <description>Doodle Jumping silliness!</description>
+  </game>
+  
+  <game>
+    <id>/games/duke3d/index</id>
+    <title>Duke Nukem 3D</title>
+    <url>https://mesaredux.mesagrey.ca/games/duke3d/index/</url>
+    <path>_games/duke3d/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>dos</type>
+    <aspect_ratio>4:3</aspect_ratio>
+    <description>Battle alien invaders and save Earth in this iconic, action-packed first-person shooter known for its humor, interactivity, and explosive gameplay.</description>
+  </game>
+  
+  <game>
+    <id>/games/electricman2/index</id>
+    <title>Electricman 2</title>
+    <url>https://mesaredux.mesagrey.ca/games/electricman2/index/</url>
+    <path>_games/electricman2/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>flash</type>
+    <aspect_ratio>16:9</aspect_ratio>
+    <description>Battle stickman enemies with martial arts and super moves.</description>
+  </game>
+  
+  <game>
+    <id>/games/hl/index</id>
+    <title>Half-Life</title>
+    <url>https://mesaredux.mesagrey.ca/games/hl/index/</url>
+    <path>_games/hl/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>4:3</aspect_ratio>
+    <description>Fight your way through a secret lab in this classic shooter.</description>
+  </game>
+  
+  <game>
+    <id>/games/happywheels/index</id>
+    <title>Happy Wheels</title>
+    <url>https://mesaredux.mesagrey.ca/games/happywheels/index/</url>
+    <path>_games/happywheels/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>flash</type>
+    <aspect_ratio>16:9</aspect_ratio>
+    <description>Navigate deadly obstacle courses in this physics-based ragdoll game.</description>
+  </game>
+  
+  <game>
+    <id>/games/stickmin/etp/index</id>
+    <title>Henry Stickmin - Escaping the Prison</title>
+    <url>https://mesaredux.mesagrey.ca/games/stickmin/etp/index/</url>
+    <path>_games/stickmin/etp/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>flash</type>
+    <aspect_ratio>12:8</aspect_ratio>
+    <description>Escape the Prison in this sequel to &apos;Breaking the Bank&apos;!</description>
+  </game>
+  
+  <game>
+    <id>/games/mari0/index</id>
+    <title>Mari0</title>
+    <url>https://mesaredux.mesagrey.ca/games/mari0/index/</url>
+    <path>_games/mari0/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>16:9</aspect_ratio>
+    <description>The original Super Mario Bros. but with a Portal Gun.</description>
+  </game>
+  
+  <game>
+    <id>/games/mkds/index</id>
+    <title>Mario Kart DS</title>
+    <url>https://mesaredux.mesagrey.ca/games/mkds/index/</url>
+    <path>_games/mkds/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>retroarch</type>
+    <aspect_ratio>16:7.75</aspect_ratio>
+    <description>Kart racing action with all of your favorite mario characters!</description>
+  </game>
+  
+  <game>
+    <id>/games/minecraft/1122/index</id>
+    <title>Minecraft 1.12.2</title>
+    <url>https://mesaredux.mesagrey.ca/games/minecraft/1122/index/</url>
+    <path>_games/minecraft/1122/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>16:9</aspect_ratio>
+    <description>Minecraft 1.12.12.</description>
+  </game>
+  
+  <game>
+    <id>/games/minecraft/188/index</id>
+    <title>Minecraft 1.8.8</title>
+    <url>https://mesaredux.mesagrey.ca/games/minecraft/188/index/</url>
+    <path>_games/minecraft/188/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>16:9</aspect_ratio>
+    <description>Minecraft 1.8.8.</description>
+  </game>
+  
+  <game>
+    <id>/games/minecraft/index</id>
+    <title>Minecraft Java</title>
+    <url>https://mesaredux.mesagrey.ca/games/minecraft/index/</url>
+    <path>_games/minecraft/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio></aspect_ratio>
+    <description></description>
+  </game>
+  
+  <game>
+    <id>/games/pkmn/index</id>
+    <title>Pokémon Series</title>
+    <url>https://mesaredux.mesagrey.ca/games/pkmn/index/</url>
+    <path>_games/pkmn/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio></aspect_ratio>
+    <description></description>
+  </game>
+  
+  <game>
+    <id>/games/pkmn/gen1/blue/index</id>
+    <title>Pokémon: Blue Version</title>
+    <url>https://mesaredux.mesagrey.ca/games/pkmn/gen1/blue/index/</url>
+    <path>_games/pkmn/gen1/blue/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>retroarch</type>
+    <aspect_ratio>16:7.75</aspect_ratio>
+    <description>The classic first-generation Pokémon RPG — trade, battle, and complete your Pokédex.</description>
+  </game>
+  
+  <game>
+    <id>/games/pkmn/gen2/crys/index</id>
+    <title>Pokémon: Crystal Version</title>
+    <url>https://mesaredux.mesagrey.ca/games/pkmn/gen2/crys/index/</url>
+    <path>_games/pkmn/gen2/crys/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>retroarch</type>
+    <aspect_ratio>16:7.75</aspect_ratio>
+    <description>An enhanced Gen II Pokémon adventure featuring the Battle Tower and animated sprites.</description>
+  </game>
+  
+  <game>
+    <id>/games/pkmn/gen3/em/index</id>
+    <title>Pokémon: Emerald Version</title>
+    <url>https://mesaredux.mesagrey.ca/games/pkmn/gen3/em/index/</url>
+    <path>_games/pkmn/gen3/em/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>retroarch</type>
+    <aspect_ratio>16:7.75</aspect_ratio>
+    <description>A Generation III Pokémon RPG with expanded story, Battle Frontier, and Hoenn region Pokémon.</description>
+  </game>
+  
+  <game>
+    <id>/games/pkmn/gen3/firer/index</id>
+    <title>Pokémon: FireRed Version</title>
+    <url>https://mesaredux.mesagrey.ca/games/pkmn/gen3/firer/index/</url>
+    <path>_games/pkmn/gen3/firer/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>retroarch</type>
+    <aspect_ratio>16:7.75</aspect_ratio>
+    <description>A modern remake of the original Generation I Pokémon with updated graphics and features.</description>
+  </game>
+  
+  <game>
+    <id>/games/pkmn/gen1/index</id>
+    <title>Pokémon: Gen 1</title>
+    <url>https://mesaredux.mesagrey.ca/games/pkmn/gen1/index/</url>
+    <path>_games/pkmn/gen1/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio></aspect_ratio>
+    <description></description>
+  </game>
+  
+  <game>
+    <id>/games/pkmn/gen2/index</id>
+    <title>Pokémon: Gen 2</title>
+    <url>https://mesaredux.mesagrey.ca/games/pkmn/gen2/index/</url>
+    <path>_games/pkmn/gen2/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio></aspect_ratio>
+    <description></description>
+  </game>
+  
+  <game>
+    <id>/games/pkmn/gen3/index</id>
+    <title>Pokémon: Gen 3</title>
+    <url>https://mesaredux.mesagrey.ca/games/pkmn/gen3/index/</url>
+    <path>_games/pkmn/gen3/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio></aspect_ratio>
+    <description></description>
+  </game>
+  
+  <game>
+    <id>/games/pkmn/gen2/gold/index</id>
+    <title>Pokémon: Gold Version</title>
+    <url>https://mesaredux.mesagrey.ca/games/pkmn/gen2/gold/index/</url>
+    <path>_games/pkmn/gen2/gold/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>retroarch</type>
+    <aspect_ratio>16:7.75</aspect_ratio>
+    <description>One half of the Gen II duo — explore Johto, catch new Pokémon, and experience day/night.</description>
+  </game>
+  
+  <game>
+    <id>/games/pkmn/gen3/leafg/index</id>
+    <title>Pokémon: LeafGreen Version</title>
+    <url>https://mesaredux.mesagrey.ca/games/pkmn/gen3/leafg/index/</url>
+    <path>_games/pkmn/gen3/leafg/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>retroarch</type>
+    <aspect_ratio>16:7.75</aspect_ratio>
+    <description>Companion remake to FireRed, revisiting Kanto with enhanced visuals and trades.</description>
+  </game>
+  
+  <game>
+    <id>/games/pkmn/gen1/red/index</id>
+    <title>Pokémon: Red Version</title>
+    <url>https://mesaredux.mesagrey.ca/games/pkmn/gen1/red/index/</url>
+    <path>_games/pkmn/gen1/red/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>retroarch</type>
+    <aspect_ratio>16:7.75</aspect_ratio>
+    <description>The original Generation I Pokémon RPG — start your journey to become a Pokémon Champion.</description>
+  </game>
+  
+  <game>
+    <id>/games/pkmn/gen3/ruby/index</id>
+    <title>Pokémon: Ruby Version</title>
+    <url>https://mesaredux.mesagrey.ca/games/pkmn/gen3/ruby/index/</url>
+    <path>_games/pkmn/gen3/ruby/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>retroarch</type>
+    <aspect_ratio>16:7.75</aspect_ratio>
+    <description>A Generation III adventure set in Hoenn — battle Gym Leaders and face Team Magma.</description>
+  </game>
+  
+  <game>
+    <id>/games/pkmn/gen3/sapph/index</id>
+    <title>Pokémon: Sapphire Version</title>
+    <url>https://mesaredux.mesagrey.ca/games/pkmn/gen3/sapph/index/</url>
+    <path>_games/pkmn/gen3/sapph/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>retroarch</type>
+    <aspect_ratio>16:7.75</aspect_ratio>
+    <description>The complementary Gen III title to Ruby — explore Hoenn and challenge the Elite Four.</description>
+  </game>
+  
+  <game>
+    <id>/games/pkmn/gen2/silver/index</id>
+    <title>Pokémon: Silver Version</title>
+    <url>https://mesaredux.mesagrey.ca/games/pkmn/gen2/silver/index/</url>
+    <path>_games/pkmn/gen2/silver/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>retroarch</type>
+    <aspect_ratio>16:7.75</aspect_ratio>
+    <description>Pair to Gold in Gen II — explore Johto, trade with Kanto, and uncover new Pokémon.</description>
+  </game>
+  
+  <game>
+    <id>/games/pkmn/gen1/yellow/index</id>
+    <title>Pokémon: Yellow Version</title>
+    <url>https://mesaredux.mesagrey.ca/games/pkmn/gen1/yellow/index/</url>
+    <path>_games/pkmn/gen1/yellow/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>retroarch</type>
+    <aspect_ratio>16:7.75</aspect_ratio>
+    <description>A special Gen I edition inspired by the anime starring Pikachu as your starter.</description>
+  </game>
+  
+  <game>
+    <id>/games/portalflash/portal2flash/index</id>
+    <title>Portal 2: Flash Version</title>
+    <url>https://mesaredux.mesagrey.ca/games/portalflash/portal2flash/index/</url>
+    <path>_games/portalflash/portal2flash/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>flash</type>
+    <aspect_ratio>6:4</aspect_ratio>
+    <description>It&apos;s Portal 2 but 2D and made in flash. In Portal Flash you have to solve a series of puzzles based on the portal gun use q and e to shoot portals. :)</description>
+  </game>
+  
+  <game>
+    <id>/games/portalflash/index</id>
+    <title>Portal Flash Series</title>
+    <url>https://mesaredux.mesagrey.ca/games/portalflash/index/</url>
+    <path>_games/portalflash/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio></aspect_ratio>
+    <description></description>
+  </game>
+  
+  <game>
+    <id>/games/portalflash/portal1flash/index</id>
+    <title>Portal: Flash Version</title>
+    <url>https://mesaredux.mesagrey.ca/games/portalflash/portal1flash/index/</url>
+    <path>_games/portalflash/portal1flash/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>flash</type>
+    <aspect_ratio>16:9</aspect_ratio>
+    <description>It&apos;s Portal but 2D and made in flash. In Portal Flash you have to solve a series of puzzles based on the portal gun use q and e to shoot portals. :)</description>
+  </game>
+  
+  <game>
+    <id>/games/quake3/index</id>
+    <title>Quake 3</title>
+    <url>https://mesaredux.mesagrey.ca/games/quake3/index/</url>
+    <path>_games/quake3/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>16:9</aspect_ratio>
+    <description>Fast paced multiplayer shooter game.</description>
+  </game>
+  
+  <game>
+    <id>/games/retroarch/index</id>
+    <title>RetroArch</title>
+    <url>https://mesaredux.mesagrey.ca/games/retroarch/index/</url>
+    <path>_games/retroarch/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>16:10</aspect_ratio>
+    <description>Upload ROMs and play them for a wide variety of systems. Nintendo, Sega, Atari, PS1, and more.</description>
+  </game>
+  
+  <game>
+    <id>/games/ruffle/index</id>
+    <title>Ruffle (Flash Emulator)</title>
+    <url>https://mesaredux.mesagrey.ca/games/ruffle/index/</url>
+    <path>_games/ruffle/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>4:3</aspect_ratio>
+    <description>Upload your own .swf files and play them.</description>
+  </game>
+  
+  <game>
+    <id>/games/run/run1/index</id>
+    <title>Run 1</title>
+    <url>https://mesaredux.mesagrey.ca/games/run/run1/index/</url>
+    <path>_games/run/run1/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>flash</type>
+    <aspect_ratio>4:3</aspect_ratio>
+    <description>speedy goober</description>
+  </game>
+  
+  <game>
+    <id>/games/run/run2/index</id>
+    <title>Run 2</title>
+    <url>https://mesaredux.mesagrey.ca/games/run/run2/index/</url>
+    <path>_games/run/run2/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>flash</type>
+    <aspect_ratio>4:3</aspect_ratio>
+    <description>speedy goober</description>
+  </game>
+  
+  <game>
+    <id>/games/run/run3/index</id>
+    <title>Run 3</title>
+    <url>https://mesaredux.mesagrey.ca/games/run/run3/index/</url>
+    <path>_games/run/run3/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>4:3</aspect_ratio>
+    <description>Classic run experience..</description>
+  </game>
+  
+  <game>
+    <id>/games/run/index</id>
+    <title>Run Trilogy</title>
+    <url>https://mesaredux.mesagrey.ca/games/run/index/</url>
+    <path>_games/run/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio></aspect_ratio>
+    <description></description>
+  </game>
+  
+  <game>
+    <id>/games/sandtris/index</id>
+    <title>Sandtris</title>
+    <url>https://mesaredux.mesagrey.ca/games/sandtris/index/</url>
+    <path>_games/sandtris/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>3:3</aspect_ratio>
+    <description>A physics based take on the classic block based puzzle game Tetris®.</description>
+  </game>
+  
+  <game>
+    <id>/games/slope/index</id>
+    <title>Slope</title>
+    <url>https://mesaredux.mesagrey.ca/games/slope/index/</url>
+    <path>_games/slope/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>9:7</aspect_ratio>
+    <description>Roll down a neon slope, dodging obstacles for a high score.</description>
+  </game>
+  
+  <game>
+    <id>/games/sm64/index</id>
+    <title>Super Mario 64</title>
+    <url>https://mesaredux.mesagrey.ca/games/sm64/index/</url>
+    <path>_games/sm64/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>5:4</aspect_ratio>
+    <description>The classic N64 3D platformer that brought mario into the 3rd dimension.</description>
+  </game>
+  
+  <game>
+    <id>/games/tetrisdx/index</id>
+    <title>Tetris DX</title>
+    <url>https://mesaredux.mesagrey.ca/games/tetrisdx/index/</url>
+    <path>_games/tetrisdx/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>retroarch</type>
+    <aspect_ratio>16:7.75</aspect_ratio>
+    <description>Classic block based puzzle game about dropping blocks and forming lines.</description>
+  </game>
+  
+  <game>
+    <id>/games/doom/doom1/index</id>
+    <title>The Ultimate DOOM</title>
+    <url>https://mesaredux.mesagrey.ca/games/doom/doom1/index/</url>
+    <path>_games/doom/doom1/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>dos</type>
+    <aspect_ratio>4:3</aspect_ratio>
+    <description>Face demonic hordes in the classic first-person shooter that defined a genre.</description>
+  </game>
+  
+  <game>
+    <id>/games/motox3m/index</id>
+    <title>motox3m</title>
+    <url>https://mesaredux.mesagrey.ca/games/motox3m/index/</url>
+    <path>_games/motox3m/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>flash</type>
+    <aspect_ratio>4:3</aspect_ratio>
+    <description>Race through challenging obstacle courses on your motorbike, perform stunts, and beat the clock in this fast-paced motocross game.</description>
+  </game>
+  
+</games>
