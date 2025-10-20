@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write   # Needed to push to main
+  contents: write   # Needed to push to build
   pages: write
   id-token: write
 
@@ -26,7 +26,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'
+          ruby-version: "3.1"
           bundler-cache: true
           cache-version: 0
 
@@ -35,20 +35,32 @@ jobs:
           JEKYLL_ENV: production
         run: bundle exec jekyll build --destination ./_site
 
-      - name: Push built site to main branch
+      - name: Push built site to build branch
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git checkout --orphan build  # Switch to main branch
-          git reset --hard            # Clear branch
+
+          git fetch origin build || echo "No remote build branch yet"
+
+          # Create or switch to the build branch locally
+          if git rev-parse --verify origin/build >/dev/null 2>&1; then
+            git checkout build
+            git merge -X ours origin/build --allow-unrelated-histories || true
+          else
+            git checkout --orphan build
+          fi
+
+          # Replace contents with the new site
           mkdir /tmp/keep_temp
           mv _site /tmp/keep_temp
           rm -rf ./*
           cp -r /tmp/keep_temp/_site/* ./
-          rm -r /tmp/keep_temp
-          git add .
-          git commit -m "Deploy site from source branch"
-          git push origin build --force  # Force push to main
+          rm -rf /tmp/keep_temp .bundle
+
+          # Commit and push
+          git add -A
+          git commit -m "Built site from main branch" || echo "No changes to commit"
+          git push origin build
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
