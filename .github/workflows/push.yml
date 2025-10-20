@@ -41,8 +41,9 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git checkout --orphan build  # Switch to main branch
           git reset --hard            # Clear branch
-          cp -r .gitignore .
+          find /path/to/dir -mindepth 1 ! -name '_site' -exec rm -rf {} +
           cp -r _site/* .             # Copy built files
+          rm -r _site
           git add .
           git commit -m "Deploy site from source branch"
           git push origin build --force  # Force push to main
