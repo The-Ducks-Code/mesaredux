@@ -35,6 +35,31 @@ jobs:
           JEKYLL_ENV: production
         run: bundle exec jekyll build --destination ./_site
 
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Notify Discord of deployment
+        if: always()
+        uses: sarisia/actions-status-discord@v1
+        with:
+          webhook: ${{ secrets.DISCORD_WEBHOOK }}
+          status: ${{ job.status }}
+          title: "MESλREDUX Deployment"
+          color: ${{ job.status == 'success' && '0xFF4500' || '0xFF0000' }}
+          description: ${{ job.status == 'success' && 'MESλREDUX has been built and deployed successfully! See changes at https://mesaredux.mesagrey.ca' || 'The deployment failed! Check the workflow logs for details.' }}
+          
       - name: Push built site to build branch
         run: |
           git config user.name "github-actions[bot]"
@@ -62,27 +87,3 @@ jobs:
           git commit -m "Built site from main branch" || echo "No changes to commit"
           git push origin build
 
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./_site
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
-
-      - name: Notify Discord of deployment
-        if: always()
-        uses: sarisia/actions-status-discord@v1
-        with:
-          webhook: ${{ secrets.DISCORD_WEBHOOK }}
-          status: ${{ job.status }}
-          title: "MESλREDUX Deployment"
-          color: ${{ job.status == 'success' && '0xFF4500' || '0xFF0000' }}
-          description: ${{ job.status == 'success' && 'MESλREDUX has been built and deployed successfully! See changes at https://mesaredux.mesagrey.ca' || 'The deployment failed! Check the workflow logs for details.' }}
