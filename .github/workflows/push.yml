@@ -18,10 +18,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout source branch
+      - name: Checkout source
         uses: actions/checkout@v4
         with:
-          ref: source
           fetch-depth: 1
 
       - name: Setup Ruby
