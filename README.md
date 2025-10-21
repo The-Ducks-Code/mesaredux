@@ -49,6 +49,13 @@ description: "Battle stickman enemies with martial arts and super moves."(A brie
 2. Install [Pull](https://github.com/apps/pull) on your fork to keep your mirror up to date with the upstream repository.
 3. Optionally, delete the `main` branch and make `build` the default.
 
+#### Optional: Custom Domain
+
+If you want your mirror to be accessible via your own domain or subdomain:
+
+1. Create a file named `CNAME` in the root of your fork.
+2. Add your custom domain or subdomain in the file, for example: ```mesaredux.mysite.com```
+
 ---
 
 ### 1. Netlify
