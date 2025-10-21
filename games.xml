@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<games exported_at="2025-10-21T17:23:17+00:00" site="MESλREDUX" url="https://mesaredux.mesagrey.ca">
+<games exported_at="2025-10-21T17:30:28+00:00" site="MESλREDUX" url="https://mesaredux.mesagrey.ca">
   
   
   <game>
@@ -204,18 +204,6 @@
   <type>html</type>
     <aspect_ratio>16:9</aspect_ratio>
     <description>The original Super Mario Bros. but with a Portal Gun.</description>
-  </game>
-  
-  <game>
-    <id>/games/mario/index</id>
-    <title>Mario Games</title>
-    <url>https://mesaredux.mesagrey.ca/games/mario/index/</url>
-    <path>_games/mario/index.md</path>
-    <slug>index</slug>
-  <collection>games</collection>
-  <type>html</type>
-    <aspect_ratio></aspect_ratio>
-    <description></description>
   </game>
   
   <game>
@@ -648,6 +636,30 @@
   <type>retroarch</type>
     <aspect_ratio>16:7.75</aspect_ratio>
     <description>This is just Doki Doki Panic reskinned to look like Mario because SMB2-J was &apos;too hard for western auidences&apos; apparently lmao.</description>
+  </game>
+  
+  <game>
+    <id>/games/mario/smb2j/index</id>
+    <title>Super Mario Bros. 2-J</title>
+    <url>https://mesaredux.mesagrey.ca/games/mario/smb2j/index/</url>
+    <path>_games/mario/smb2j/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>retroarch</type>
+    <aspect_ratio>16:7.75</aspect_ratio>
+    <description>The real SMB2.</description>
+  </game>
+  
+  <game>
+    <id>/games/mario/index</id>
+    <title>Super Mario Series</title>
+    <url>https://mesaredux.mesagrey.ca/games/mario/index/</url>
+    <path>_games/mario/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio></aspect_ratio>
+    <description></description>
   </game>
   
   <game>
