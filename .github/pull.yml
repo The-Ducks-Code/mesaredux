@@ -2,5 +2,5 @@ version: "1"
 rules:
   - base: build
     upstream: Bored-Entertainment:build
-    mergeMethod: hardreset
+    mergeMethod: merge
     mergeUnstable: true
