@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<games exported_at="2025-10-21T19:41:02+00:00" site="MESλREDUX" url="https://mesaredux.mesagrey.ca">
+<games exported_at="2025-10-21T19:42:55+00:00" site="MESλREDUX" url="https://mesaredux.mesagrey.ca">
   
   
   <game>
@@ -192,6 +192,30 @@
   <type>flash</type>
     <aspect_ratio>12:8</aspect_ratio>
     <description>Escape the Prison in this sequel to &apos;Breaking the Bank&apos;!</description>
+  </game>
+  
+  <game>
+    <id>/games/kirby/index</id>
+    <title>Kirby Series</title>
+    <url>https://mesaredux.mesagrey.ca/games/kirby/index/</url>
+    <path>_games/kirby/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio></aspect_ratio>
+    <description></description>
+  </game>
+  
+  <game>
+    <id>/games/kirby/kirbysadventure/index</id>
+    <title>Kirby&apos;s Adventure</title>
+    <url>https://mesaredux.mesagrey.ca/games/kirby/kirbysadventure/index/</url>
+    <path>_games/kirby/kirbysadventure/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>retroarch</type>
+    <aspect_ratio>16:7.75</aspect_ratio>
+    <description>Kirby original debut title!</description>
   </game>
   
   <game>
