@@ -10,6 +10,9 @@
 
 #### The team behind blockbuster sites such as [The Mesa Complex](https://github.com/Bored-Entertainment/themesacomplex), [Swordslasher.com](https://swordslasher.com/), and [BoredHTML](https://bored.pisaucer.com/) proudly presents this project—a definitive and scalable redux of The Mesa Complex, representing the culmination of our last six years of work!
 
+<details>
+  <summary>Adding a Game</summary>
+
 #### This project is scalable, and adding a new game is simple as the following steps:
 
 1. Find the game you wish to add; currently we support HTML5, DOS, and Flash game types.
@@ -36,5 +39,57 @@ description: "Battle stickman enemies with martial arts and super moves."(A brie
 10. OPTIONALLY Create a thumbnail for the game, sized `1280x720px` located in your games `index` directory. Thumbnails must include the games title and ideally would depict gameplay or be official title art. Adding a thumbnail saves us valuable time, and allows us to prioritize the adding of game requests that include thumbnails.
 11. Create a Pull Request, following the guidelines and requested information present in the template.
 <br><sub>Please note that the addition of games is at the discretion of the Bored Entertainment Team, and we will not add games if the `sha256` checksum provided by VirusTotal doesn't match up with what you've uploaded, VirusTotal flags the game you're requesting to add, we don't think it'll fit the aesthetic of the site, or for any reason not listed here.</sub>
+</details>
+<details>
+  <summary>Hosting a Mirror</summary>
+
+#### MESλREDUX can be mirrored using three supported platforms. Before deploying, make sure you:
+
+1. Fork the repository [Bored-Entertainment/mesaredux](https://github.com/Bored-Entertainment/mesaredux).
+2. Install [Pull](https://github.com/apps/pull) on your fork to keep your mirror up to date with the upstream repository.
+3. Optionally, delete the `main` branch and make `build` the default.
+
+---
+
+### 1. Netlify
+Netlify allows you to deploy a mirror with zero configuration. Use the button below to deploy directly:
+
+**Instructions:**
+1. Log in to Netlify or create an account.
+2. Select your fork and the `build` branch.
+4. Deploy and wait for your site to go live.
+
+---
+
+### 2. GitHub Pages
+GitHub Pages works well for hosting static mirrors of MESλREDUX.
+
+**Instructions:**
+1. Navigate to your fork on GitHub.
+2. Go to **Settings → Pages**.
+3. Set **Source** to the `build` branch and root (`/`).
+4. Click **Save** and wait for GitHub to publish your site.
+5. Your mirror will be available at `https://<your-username>.github.io/mesaredux`.
+
+
+---
+
+### 3. Cloudflare Pages
+Cloudflare Pages allows fast, globally distributed hosting.
+
+**Instructions:**
+1. Log in to [Cloudflare Pages](https://pages.cloudflare.com/).
+2. Create a new project and connect it to your fork.
+3. Select the `build` branch.
+4. Set the **Build command** to `jekyll build` and **Build directory** to `_site`.
+5. Deploy and wait for the mirror to be live.
+
+  
+---
+#### To submit your mirror to be in our list on the site, simply submit a Pull Request adding it to the [JSON List](https://github.com/Bored-Entertainment/mesaredux/edit/main/assets/js/json/unofficalmirrors.json)
+
+<sub>All mirrors will automatically stay up to date if Pull is installed and configured on your fork.</sub>
+</details>
+
 
 #### Thank You for contributing to the MESλREDUX project! 
