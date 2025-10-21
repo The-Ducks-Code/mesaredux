@@ -3,7 +3,7 @@
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
-  <title>ruffle-selfhosted - MESλREDUX</title>
+  <title>mirrors - MESλREDUX</title>
   <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="stylesheet" href="https://webring.mesagrey.ca/webring/boredring.css">
   <script type="text/javascript" src="/assets/js/randoText.js" defer></script>
@@ -2683,64 +2683,26 @@
     <div class="box">  
     
     
-    <h2 id="section-1">* RUFFLE-SELFHOSTED: *</h2>
+    <h2 id="section-1">* MESλREDUX - MIRRORS *</h2>
     <div class="inner">
     
-    <h1 id="ruffle-selfhosted">ruffle-selfhosted</h1>
+    <div class="mirror-layout">
+  <div class="mirror-box">
+    <h4 class="mirror-box-title">Official Mirrors:</h4>
+    <div class="mirror-box-body">
+      <ul class="mirror-list" data-mirror-type="official"></ul>
+    </div>
+  </div>
+  <div class="mirror-box">
+    <h4 class="mirror-box-title">Unofficial Mirrors:</h4>
+    <div class="mirror-box-body">
+      <ul class="mirror-list" data-mirror-type="unofficial"></ul>
+    </div>
+  </div>
+</div>
 
-<p>ruffle-selfhosted is the intended way to get Ruffle onto your website.</p>
+<script src="/assets/js/official-mirrors.js" defer=""></script>
 
-<p>You may either include it and forget about it, and we will polyfill existing Flash content,
-or use our APIs for custom configurations or more advanced usages of the Ruffle player.</p>
-
-<h2 id="using-ruffle-selfhosted">Using ruffle-selfhosted</h2>
-
-<p>For more examples and in-depth documentation on how to use Ruffle on your website, please
-<a href="https://github.com/ruffle-rs/ruffle/wiki/Using-Ruffle#web">check out our wiki</a>.</p>
-
-<h3 id="host-ruffle">Host Ruffle</h3>
-
-<p>The <code class="language-plaintext highlighter-rouge">selfhosted</code> package is configured for websites that do not use bundlers or npm and just want
-to get up and running. If you’d prefer to use Ruffle through npm and a bundler, please
-<a href="https://github.com/ruffle-rs/ruffle/tree/master/web/packages/core">refer to ruffle core</a>.</p>
-
-<p>Before you can get started with using Ruffle on your website, you must host its files yourself.
-Either take the <a href="https://github.com/ruffle-rs/ruffle/releases">latest build</a>
-or <a href="https://github.com/ruffle-rs/ruffle/blob/master/web/README.md">build it yourself</a>, and make these files accessible by your web server.</p>
-
-<p>Please note that the <code class="language-plaintext highlighter-rouge">.wasm</code> file must be served properly, and some web servers may not do that
-correctly out of the box. Please see <a href="https://github.com/ruffle-rs/ruffle/wiki/Using-Ruffle#configure-wasm-mime-type">our wiki</a>
-for instructions on how to configure this, if you encounter a <code class="language-plaintext highlighter-rouge">Incorrect response MIME type</code> error.</p>
-
-<h3 id="plug-and-play">“Plug and Play”</h3>
-
-<p>If you have an existing website with flash content, you can simply include Ruffle as a script and
-our polyfill magic will replace everything for you. No fuss, no mess.</p>
-
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"path/to/ruffle/ruffle.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
-</code></pre></div></div>
-
-<h3 id="javascript-api">Javascript API</h3>
-
-<p>If you want to control the Ruffle player, you may use our Javascript API.</p>
-
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script&gt;</span>
-    <span class="nb">window</span><span class="p">.</span><span class="nx">RufflePlayer</span> <span class="o">=</span> <span class="nb">window</span><span class="p">.</span><span class="nx">RufflePlayer</span> <span class="o">||</span> <span class="p">{};</span>
-
-    <span class="nb">window</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="dl">"</span><span class="s2">DOMContentLoaded</span><span class="dl">"</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
-        <span class="kd">let</span> <span class="nx">ruffle</span> <span class="o">=</span> <span class="nb">window</span><span class="p">.</span><span class="nx">RufflePlayer</span><span class="p">.</span><span class="nx">newest</span><span class="p">();</span>
-        <span class="kd">let</span> <span class="nx">player</span> <span class="o">=</span> <span class="nx">ruffle</span><span class="p">.</span><span class="nx">createPlayer</span><span class="p">();</span>
-        <span class="kd">let</span> <span class="nx">container</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="dl">"</span><span class="s2">container</span><span class="dl">"</span><span class="p">);</span>
-        <span class="nx">container</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">player</span><span class="p">);</span>
-        <span class="nx">player</span><span class="p">.</span><span class="nx">ruffle</span><span class="p">().</span><span class="nx">load</span><span class="p">(</span><span class="dl">"</span><span class="s2">movie.swf</span><span class="dl">"</span><span class="p">);</span>
-    <span class="p">});</span>
-<span class="nt">&lt;/script&gt;</span>
-<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"path/to/ruffle/ruffle.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
-</code></pre></div></div>
-
-<h2 id="building-testing-or-contributing">Building, testing or contributing</h2>
-
-<p>Please see <a href="https://github.com/ruffle-rs/ruffle/blob/master/web/README.md">the ruffle-web README</a>.</p>
 
     
     </div>
