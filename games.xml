@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<games exported_at="2025-10-21T20:43:49+00:00" site="MESλREDUX" url="https://mesaredux.mesagrey.ca">
+<games exported_at="2025-10-21T21:36:50+00:00" site="MESλREDUX" url="https://mesaredux.mesagrey.ca">
   
   
   <game>
@@ -168,6 +168,90 @@
   <type>flash</type>
     <aspect_ratio>16:9</aspect_ratio>
     <description>Battle stickman enemies with martial arts and super moves.</description>
+  </game>
+  
+  <game>
+    <id>/games/fnaf/fnaf1/index</id>
+    <title>FNAF 1</title>
+    <url>https://mesaredux.mesagrey.ca/games/fnaf/fnaf1/index/</url>
+    <path>_games/fnaf/fnaf1/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>4:3</aspect_ratio>
+    <description>Survive five graveyard shifts at Freddy Fazbear&apos;s Pizza by monitoring cameras, conserving power, and keeping the animatronics at bay.</description>
+  </game>
+  
+  <game>
+    <id>/games/fnaf/fnaf2/index</id>
+    <title>FNAF 2</title>
+    <url>https://mesaredux.mesagrey.ca/games/fnaf/fnaf2/index/</url>
+    <path>_games/fnaf/fnaf2/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>4:3</aspect_ratio>
+    <description>Manage the night shift at the new Freddy Fazbear&apos;s Pizza with a mask, flashlight, and cameras while fending off an expanded roster of animatronics.</description>
+  </game>
+  
+  <game>
+    <id>/games/fnaf/fnaf3/index</id>
+    <title>FNAF 3</title>
+    <url>https://mesaredux.mesagrey.ca/games/fnaf/fnaf3/index/</url>
+    <path>_games/fnaf/fnaf3/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>4:3</aspect_ratio>
+    <description>Return to Fazbear&apos;s Fright decades later, juggling audio lures and ventilation systems to outsmart Springtrap and survive the week.</description>
+  </game>
+  
+  <game>
+    <id>/games/fnaf/fnaf4/index</id>
+    <title>FNAF 4</title>
+    <url>https://mesaredux.mesagrey.ca/games/fnaf/fnaf4/index/</url>
+    <path>_games/fnaf/fnaf4/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>4:3</aspect_ratio>
+    <description>Relive childhood nightmares in a bedroom setting, listening for breathing and shutting doors to stop the Nightmare animatronics.</description>
+  </game>
+  
+  <game>
+    <id>/games/fnaf/index</id>
+    <title>FNAF Series</title>
+    <url>https://mesaredux.mesagrey.ca/games/fnaf/index/</url>
+    <path>_games/fnaf/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio></aspect_ratio>
+    <description></description>
+  </game>
+  
+  <game>
+    <id>/games/fnaf/fnaf-sl/index</id>
+    <title>FNAF Sister Location</title>
+    <url>https://mesaredux.mesagrey.ca/games/fnaf/fnaf-sl/index/</url>
+    <path>_games/fnaf/fnaf-sl/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>4:3</aspect_ratio>
+    <description>Take on underground technician duties for Circus Baby&apos;s crew, completing nightly maintenance while unraveling the facility&apos;s secrets.</description>
+  </game>
+  
+  <game>
+    <id>/games/fnaf/fnaf-ucn/index</id>
+    <title>FNAF Ultimate Custom Night</title>
+    <url>https://mesaredux.mesagrey.ca/games/fnaf/fnaf-ucn/index/</url>
+    <path>_games/fnaf/fnaf-ucn/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>4:3</aspect_ratio>
+    <description>Assemble your own custom roster of animatronics, tune their AI levels, and juggle every system to last until 6 AM.</description>
   </game>
   
   <game>
@@ -528,18 +612,6 @@
   <type>flash</type>
     <aspect_ratio>16:9</aspect_ratio>
     <description>It&apos;s Portal but 2D and made in flash. In Portal Flash you have to solve a series of puzzles based on the portal gun use q and e to shoot portals. :)</description>
-  </game>
-  
-  <game>
-    <id>/games/powder/index</id>
-    <title>Powder Game</title>
-    <url>https://mesaredux.mesagrey.ca/games/powder/index/</url>
-    <path>_games/powder/index.md</path>
-    <slug>index</slug>
-  <collection>games</collection>
-  <type>html</type>
-    <aspect_ratio>4:3</aspect_ratio>
-    <description>Physics sandbox game with particles.</description>
   </game>
   
   <game>
