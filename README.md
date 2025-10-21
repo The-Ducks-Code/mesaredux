@@ -55,11 +55,6 @@ If you want your mirror to be accessible via your own domain or subdomain:
 
 1. Create a file named `CNAME` in the root of your fork.
 2. Add your custom domain or subdomain in the file, for example: ```mesaredux.mysite.com```
-3. Commit and push the change to your fork.
-4. Make sure your DNS provider points your domain/subdomain to the host:  
-- **GitHub Pages:** Use a CNAME record to `your-username.github.io`.  
-- **Netlify:** Use an `A` record or CNAME as instructed in Netlify’s domain settings.  
-- **Cloudflare Pages:** Add a CNAME record pointing to `your-project.pages.dev`.  
 
 ---
 
