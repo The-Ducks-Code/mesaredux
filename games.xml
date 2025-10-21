@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<games exported_at="2025-10-21T06:11:12+00:00" site="MESλREDUX" url="https://mesaredux.mesagrey.ca">
+<games exported_at="2025-10-21T07:23:10+00:00" site="MESλREDUX" url="https://mesaredux.mesagrey.ca">
   
   
   <game>
@@ -132,6 +132,18 @@
   <type>dos</type>
     <aspect_ratio>4:3</aspect_ratio>
     <description>Battle alien invaders and save Earth in this iconic, action-packed first-person shooter known for its humor, interactivity, and explosive gameplay.</description>
+  </game>
+  
+  <game>
+    <id>/games/ddg/index</id>
+    <title>Dungeons &amp; Degenerate Gamblers</title>
+    <url>https://mesaredux.mesagrey.ca/games/ddg/index/</url>
+    <path>_games/ddg/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>16:9</aspect_ratio>
+    <description>What if Blackjack was a roguelike?</description>
   </game>
   
   <game>
@@ -576,6 +588,18 @@
   <type>html</type>
     <aspect_ratio>9:7</aspect_ratio>
     <description>Roll down a neon slope, dodging obstacles for a high score.</description>
+  </game>
+  
+  <game>
+    <id>/games/solitaire/index</id>
+    <title>Solitaire</title>
+    <url>https://mesaredux.mesagrey.ca/games/solitaire/index/</url>
+    <path>_games/solitaire/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>4:3</aspect_ratio>
+    <description>Classic singleplayer card game.</description>
   </game>
   
   <game>
