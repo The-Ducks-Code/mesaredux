@@ -661,11 +661,12 @@ For more information on this, and how to apply and follow the GNU AGPL, see
 <https://www.gnu.org/licenses/>.
 
 Additional Term under GNU Affero General Public License v3 (Section 7):
-The file "/assets/js/mirrorAlert.js", and any JSON files it directly references,
-each of which contains information intended to help prevent the use of
-potentially malicious mirrors, must be preserved in all distributed copies
-or derivative works of this program. These files must remain in their original
-relative directory paths and may not be removed or modified in distributed
-versions.
 
+The file "/assets/js/mirrorAlert.js" and any JSON files it directly references,
+each containing information intended to help prevent the use of potentially
+malicious mirrors, must be preserved in all distributed copies or derivative
+works of this program. These files must remain in their original relative
+directory paths, may not be removed or modified in distributed versions, and
+must be embedded on the program’s index page exactly as they are in the
+original distribution.
 
