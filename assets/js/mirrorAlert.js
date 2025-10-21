@@ -5,9 +5,9 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   const mainDomain = 'mesaredux.mesagrey.ca';
-  const manifestPath = `https://${mainDomain}/assets/js/json/officialmirrors.json`;
+  const manifestPath = `/assets/js/json/officialmirrors.json`;
   const unofficialManifestPath = `https://${mainDomain}/assets/js/json/unofficialmirrors.json`;
-  const buildInfoPath = '/assets/js/json/buildinfo.json';
+  const buildInfoPath = `https://${mainDomain}/assets/js/json/buildinfo.json`;
   const latestBuildInfoPath = `https://${mainDomain}/assets/js/json/buildinfo.json`;
   const fallbackMirrors = [mainDomain];
   const host = window.location.host.toLowerCase();
@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   <span>Try the main domain at <a href="https://${mainDomain}">${mainDomain}</a> if it is not blocked for you.</span>
 
-  ${buildInfo ? (latestBuildInfo ? (buildOutdated ? `<br><strong>Notice:</strong> This mirror is running an outdated build.` + (isOfficial ? ` Please wait for changes to sync.` : ' Please consider using an official mirror for the latest updates.') : `<br><strong>This ${isOfficial ? 'official' : 'unofficial'} mirror is up to date${isOfficial ? '.' : ' with latest git commit. HOWEVER, be careful, it may be host to malicious changes that aren\'t committed!'}</strong>`) : `<br><strong>Unable to check for updates. This ${isOfficial ? 'official' : 'unofficial'} mirror is possibly out of date.</strong>`) : ''}
+  ${buildInfo ? (latestBuildInfo ? (buildOutdated ? `<br><strong>Notice:</strong> This mirror is running an outdated or modified build.` + (isOfficial ? ` Please wait for changes to sync.` : ' Please consider using an official mirror for the latest updates.') : `<br><strong>This ${isOfficial ? 'official' : 'unofficial'} mirror is up to date${isOfficial ? '.' : ' with latest git commit. HOWEVER, be careful, it may be host to malicious changes that aren\'t committed!'}</strong>`) : `<br><strong>Unable to check for updates. This ${isOfficial ? 'official' : 'unofficial'} mirror is possibly out of date.</strong>`) : ''}
 
 `;
 
