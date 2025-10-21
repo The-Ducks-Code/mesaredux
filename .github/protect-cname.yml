@@ -9,6 +9,7 @@ on:
 
 jobs:
   restore-file:
+    if: github.repository != 'Bored-Entertainment/mesaredux'
     runs-on: ubuntu-latest
 
     steps:
