@@ -659,3 +659,11 @@ specific requirements.
 if any, to sign a "copyright disclaimer" for the program, if necessary.
 For more information on this, and how to apply and follow the GNU AGPL, see
 <https://www.gnu.org/licenses/>.
+
+Additional Term under AGPLv3 Section 7:
+The file "/assets/js/mirrorAlert.js", which contains information about
+potential malicious mirrors, must be preserved in all distributed copies
+or derivative works of this program. This file must remain in the same
+relative directory path and may not be removed or modified in distributed
+versions.
+
