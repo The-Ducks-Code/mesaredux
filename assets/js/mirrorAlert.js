@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   const mainDomain = 'mesaredux.mesagrey.ca';
-  const manifestPath = '/assets/js/json/mirrors.json';
+  const manifestPath = `https://${mainDomain}/assets/js/json/mirrors.json`;
   const buildInfoPath = '/assets/js/json/buildinfo.json';
   const latestBuildInfoPath = `https://${mainDomain}/assets/js/json/buildinfo.json`;
   const fallbackMirrors = [mainDomain];
