@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<games exported_at="2025-10-22T03:26:22+00:00" site="MESλREDUX" url="https://mesaredux.mesagrey.ca">
+<games exported_at="2025-10-22T07:41:45+00:00" site="MESλREDUX" url="https://mesaredux.mesagrey.ca">
   
   
   <game>
@@ -27,6 +27,18 @@
   </game>
   
   <game>
+    <id>/games/adcap/index</id>
+    <title>Adventure Capitalist</title>
+    <url>https://mesaredux.mesagrey.ca/games/adcap/index/</url>
+    <path>_games/adcap/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>16:9</aspect_ratio>
+    <description>Capitalism moment</description>
+  </game>
+  
+  <game>
     <id>/games/btd/index</id>
     <title>BTD Series</title>
     <url>https://mesaredux.mesagrey.ca/games/btd/index/</url>
@@ -36,6 +48,30 @@
   <type>html</type>
     <aspect_ratio></aspect_ratio>
     <description></description>
+  </game>
+  
+  <game>
+    <id>/games/balatro/index</id>
+    <title>Balatro</title>
+    <url>https://mesaredux.mesagrey.ca/games/balatro/index/</url>
+    <path>_games/balatro/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>16:9</aspect_ratio>
+    <description>Roguelike deck-building poker game.</description>
+  </game>
+  
+  <game>
+    <id>/games/bitlife/index</id>
+    <title>BitLife</title>
+    <url>https://mesaredux.mesagrey.ca/games/bitlife/index/</url>
+    <path>_games/bitlife/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>80:129</aspect_ratio>
+    <description>Life Simulator Game</description>
   </game>
   
   <game>
@@ -387,6 +423,18 @@
   </game>
   
   <game>
+    <id>/games/fruitninja/index</id>
+    <title>Fruit Ninja</title>
+    <url>https://mesaredux.mesagrey.ca/games/fruitninja/index/</url>
+    <path>_games/fruitninja/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>16:9</aspect_ratio>
+    <description>Fruit slicing action!</description>
+  </game>
+  
+  <game>
     <id>/games/hl/index</id>
     <title>Half-Life</title>
     <url>https://mesaredux.mesagrey.ca/games/hl/index/</url>
@@ -564,6 +612,18 @@
   <type>retroarch</type>
     <aspect_ratio>16:7.75</aspect_ratio>
     <description>The maze based ghost hunting arcade game!</description>
+  </game>
+  
+  <game>
+    <id>/games/papasb/index</id>
+    <title>Papa&apos;s Burgeria</title>
+    <url>https://mesaredux.mesagrey.ca/games/papasb/index/</url>
+    <path>_games/papasb/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>16:9</aspect_ratio>
+    <description>Make burgers</description>
   </game>
   
   <game>
