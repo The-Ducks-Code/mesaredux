@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<games exported_at="2025-10-22T01:47:41+00:00" site="MESλREDUX" url="https://mesaredux.mesagrey.ca">
+<games exported_at="2025-10-22T01:52:07+00:00" site="MESλREDUX" url="https://mesaredux.mesagrey.ca">
   
   
   <game>
@@ -435,6 +435,18 @@
   </game>
   
   <game>
+    <id>/games/mariovsluigi/index</id>
+    <title>Mario Vs. Luigi Online</title>
+    <url>https://mesaredux.mesagrey.ca/games/mariovsluigi/index/</url>
+    <path>_games/mariovsluigi/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>16:9</aspect_ratio>
+    <description>NSMB Multiplayer Remade with online functionality.</description>
+  </game>
+  
+  <game>
     <id>/games/minecraft/1122/index</id>
     <title>Minecraft 1.12.2</title>
     <url>https://mesaredux.mesagrey.ca/games/minecraft/1122/index/</url>
@@ -531,6 +543,18 @@
   </game>
   
   <game>
+    <id>/games/pkmn/gen4/diamond/index</id>
+    <title>Pokémon: Diamond Version</title>
+    <url>https://mesaredux.mesagrey.ca/games/pkmn/gen4/diamond/index/</url>
+    <path>_games/pkmn/gen4/diamond/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>retroarch</type>
+    <aspect_ratio>16:7.75</aspect_ratio>
+    <description>Gen IV Pokemon</description>
+  </game>
+  
+  <game>
     <id>/games/pkmn/gen3/em/index</id>
     <title>Pokémon: Emerald Version</title>
     <url>https://mesaredux.mesagrey.ca/games/pkmn/gen3/em/index/</url>
@@ -591,6 +615,18 @@
   </game>
   
   <game>
+    <id>/games/pkmn/gen4/index</id>
+    <title>Pokémon: Gen 4</title>
+    <url>https://mesaredux.mesagrey.ca/games/pkmn/gen4/index/</url>
+    <path>_games/pkmn/gen4/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio></aspect_ratio>
+    <description></description>
+  </game>
+  
+  <game>
     <id>/games/pkmn/gen2/gold/index</id>
     <title>Pokémon: Gold Version</title>
     <url>https://mesaredux.mesagrey.ca/games/pkmn/gen2/gold/index/</url>
@@ -603,6 +639,18 @@
   </game>
   
   <game>
+    <id>/games/pkmn/gen4/heartgold/index</id>
+    <title>Pokémon: HeartGold Version</title>
+    <url>https://mesaredux.mesagrey.ca/games/pkmn/gen4/heartgold/index/</url>
+    <path>_games/pkmn/gen4/heartgold/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>retroarch</type>
+    <aspect_ratio>16:7.75</aspect_ratio>
+    <description>Gen IV Remake of the classic Gen II Pokémon: Gold.</description>
+  </game>
+  
+  <game>
     <id>/games/pkmn/gen3/leafg/index</id>
     <title>Pokémon: LeafGreen Version</title>
     <url>https://mesaredux.mesagrey.ca/games/pkmn/gen3/leafg/index/</url>
@@ -612,6 +660,30 @@
   <type>retroarch</type>
     <aspect_ratio>16:7.75</aspect_ratio>
     <description>Companion remake to FireRed, revisiting Kanto with enhanced visuals and trades.</description>
+  </game>
+  
+  <game>
+    <id>/games/pkmn/gen4/pearl/index</id>
+    <title>Pokémon: Platinum Version</title>
+    <url>https://mesaredux.mesagrey.ca/games/pkmn/gen4/pearl/index/</url>
+    <path>_games/pkmn/gen4/pearl/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>retroarch</type>
+    <aspect_ratio>16:7.75</aspect_ratio>
+    <description>Gen IV Pokemon.</description>
+  </game>
+  
+  <game>
+    <id>/games/pkmn/gen4/platinum/index</id>
+    <title>Pokémon: Platinum Version</title>
+    <url>https://mesaredux.mesagrey.ca/games/pkmn/gen4/platinum/index/</url>
+    <path>_games/pkmn/gen4/platinum/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>retroarch</type>
+    <aspect_ratio>16:7.75</aspect_ratio>
+    <description>Gen IV Pokemon Game.</description>
   </game>
   
   <game>
@@ -660,6 +732,18 @@
   <type>retroarch</type>
     <aspect_ratio>16:7.75</aspect_ratio>
     <description>Pair to Gold in Gen II — explore Johto, trade with Kanto, and uncover new Pokémon.</description>
+  </game>
+  
+  <game>
+    <id>/games/pkmn/gen4/soulsilver/index</id>
+    <title>Pokémon: SoulSilver Version</title>
+    <url>https://mesaredux.mesagrey.ca/games/pkmn/gen4/soulsilver/index/</url>
+    <path>_games/pkmn/gen4/soulsilver/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>retroarch</type>
+    <aspect_ratio>16:7.75</aspect_ratio>
+    <description>Companion remake to HeartGold.</description>
   </game>
   
   <game>
@@ -963,10 +1047,10 @@
   </game>
   
   <game>
-    <id>/games/sm64/index</id>
+    <id>/games/mario/sm64/index</id>
     <title>Super Mario 64</title>
-    <url>https://mesaredux.mesagrey.ca/games/sm64/index/</url>
-    <path>_games/sm64/index.md</path>
+    <url>https://mesaredux.mesagrey.ca/games/mario/sm64/index/</url>
+    <path>_games/mario/sm64/index.md</path>
     <slug>index</slug>
   <collection>games</collection>
   <type>html</type>
@@ -1152,6 +1236,18 @@
   <type>html</type>
     <aspect_ratio>6:4</aspect_ratio>
     <description>n-gon is a challenging platformer where players ascend by making precise jumps.</description>
+  </game>
+  
+  <game>
+    <id>/games/retromine/index</id>
+    <title>retromine</title>
+    <url>https://mesaredux.mesagrey.ca/games/retromine/index/</url>
+    <path>_games/retromine/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>16:9</aspect_ratio>
+    <description>Incremental mining &amp; deckbuilding roguelike</description>
   </game>
   
 </games>

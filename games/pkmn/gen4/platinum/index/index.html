@@ -4,7 +4,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <title>Super Mario 64 - MESλREDUX</title>
+    <title>Pokémon: Platinum Version - MESλREDUX</title>
     <link rel="stylesheet" href="/assets/css/alt.css">
     
     <script type="text/javascript" src="/assets/js/resourceFallback.js"></script>
@@ -51,7 +51,7 @@
 </head>
 
 
-<body data-type="html">
+<body data-type="retroarch">
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=GT-WBK8MQR9"></script>
 <script>
@@ -67,13 +67,19 @@
         <div class="box">
             
             <div class="page-header">
-            <h1 class="page-title">Super Mario 64</h1>
+            <h1 class="page-title">Pokémon: Platinum Version</h1>
             </div>
             <br>
             <div id="breadcrumbs">
 
 
   
+  
+    
+    
+  
+    
+    
   
     
     
@@ -95,30 +101,51 @@
   
 
   
-    / Super Mario 64
+  / <a href="/games/pkmn/index">Pkmn</a>
+  
+
+  
+  / <a href="/games/pkmn/gen4/index">Gen4</a>
+  
+
+  
+    / Pokémon: Platinum Version
   
 
 </div>
             <br>
             <script type="text/javascript" src="/assets/js/aspectRatio.js"></script>
             <script>
-                let aspectRatioInfo = getAspectRatioInfo('5:4')
+                let aspectRatioInfo = getAspectRatioInfo('16:7.75')
             </script>
     
              <div class="fullscreen-center-wrapper" id="fullscreen-wrapper">
              <iframe id="game-iframe" srcdoc='
-                <object width="100" height="100">
-                <embed
-                id="game-embed"
-                src="/games/sm64/index/src/index.html"
-                flashvars=""
-                base="" 
-                quality="high"
-                allowscriptaccess="always"
-                allowfullscreen="true"
-                wmode="window"
-                </object>
-            ' allowfullscreen></iframe>
+             <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <style>
+                        body, html {
+                            margin: 0;
+                            padding: 0;
+                        }
+                    </style>
+                </head>
+                <body>
+                  <div style="width:100%;height:100%;max-width:100%">
+                      <div id="ejsplayer"></div>
+                  </div>
+                    <script>
+                      EJS_player = "#ejsplayer";
+                      EJS_core = "nds";
+                      EJS_pathtodata = "/assets/libs/emulatorjs/data";
+                      EJS_startOnLoaded = true;
+                      EJS_gameUrl = "/games/pkmn/gen4/platinum/index/src/game.zip";
+                    </script>
+                    <script src="/assets/libs/emulatorjs/data/loader.js"></script>
+                 </body>
+              </html>
+            ' allow="fullscreen" allowfullscreen></iframe>
             </div>
             <button id="fullscreen-btn" style="margin-top:10px;">Fullscreen</button>
     
