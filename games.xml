@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<games exported_at="2025-10-22T00:50:07+00:00" site="MESλREDUX" url="https://mesaredux.mesagrey.ca">
+<games exported_at="2025-10-22T01:19:58+00:00" site="MESλREDUX" url="https://mesaredux.mesagrey.ca">
   
   
   <game>
@@ -60,6 +60,18 @@
   <type>html</type>
     <aspect_ratio></aspect_ratio>
     <description></description>
+  </game>
+  
+  <game>
+    <id>/games/henrystikmin/breakingthebank/index</id>
+    <title>Breaking the Bank</title>
+    <url>https://mesaredux.mesagrey.ca/games/henrystikmin/breakingthebank/index/</url>
+    <path>_games/henrystikmin/breakingthebank/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>flash</type>
+    <aspect_ratio>12:8</aspect_ratio>
+    <description>Test ridiculous tools to tunnel, blast, or sneak into a desert bank vault in Henry&apos;s debut heist.</description>
   </game>
   
   <game>
@@ -183,8 +195,20 @@
   </game>
   
   <game>
+    <id>/games/henrystikmin/escapingtheprison/index</id>
+    <title>Escaping the Prison</title>
+    <url>https://mesaredux.mesagrey.ca/games/henrystikmin/escapingtheprison/index/</url>
+    <path>_games/henrystikmin/escapingtheprison/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>flash</type>
+    <aspect_ratio>12:8</aspect_ratio>
+    <description>Pick gadgets, allies, and escape routes to break Henry out of a maximum-security cell with branching outcomes.</description>
+  </game>
+  
+  <game>
     <id>/games/fnaf/fnaf1/index</id>
-    <title>FNAF 1</title>
+    <title>FNAF</title>
     <url>https://mesaredux.mesagrey.ca/games/fnaf/fnaf1/index/</url>
     <path>_games/fnaf/fnaf1/index.md</path>
     <slug>index</slug>
@@ -267,6 +291,30 @@
   </game>
   
   <game>
+    <id>/games/fireboywatergirl/index</id>
+    <title>Fireboy &amp; Watergirl In the Forest Temple</title>
+    <url>https://mesaredux.mesagrey.ca/games/fireboywatergirl/index/</url>
+    <path>_games/fireboywatergirl/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>16:9</aspect_ratio>
+    <description>Guide Fireboy and Watergirl through cooperative temple puzzles, flipping switches and dodging hazards together.</description>
+  </game>
+  
+  <game>
+    <id>/games/henrystikmin/fleeingthecomplex/index</id>
+    <title>Fleeing the Complex</title>
+    <url>https://mesaredux.mesagrey.ca/games/henrystikmin/fleeingthecomplex/index/</url>
+    <path>_games/henrystikmin/fleeingthecomplex/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>flash</type>
+    <aspect_ratio>12:8</aspect_ratio>
+    <description>Navigate the frigid Wall complex, tag-team with Ellie, and pick daring breakouts to close the Henry saga.</description>
+  </game>
+  
+  <game>
     <id>/games/hl/index</id>
     <title>Half-Life</title>
     <url>https://mesaredux.mesagrey.ca/games/hl/index/</url>
@@ -291,15 +339,15 @@
   </game>
   
   <game>
-    <id>/games/stickmin/etp/index</id>
-    <title>Henry Stickmin - Escaping the Prison</title>
-    <url>https://mesaredux.mesagrey.ca/games/stickmin/etp/index/</url>
-    <path>_games/stickmin/etp/index.md</path>
+    <id>/games/henrystikmin/index</id>
+    <title>Henry Stickmin Series</title>
+    <url>https://mesaredux.mesagrey.ca/games/henrystikmin/index/</url>
+    <path>_games/henrystikmin/index.md</path>
     <slug>index</slug>
   <collection>games</collection>
-  <type>flash</type>
-    <aspect_ratio>12:8</aspect_ratio>
-    <description>Escape the Prison in this sequel to &apos;Breaking the Bank&apos;!</description>
+  <type>html</type>
+    <aspect_ratio></aspect_ratio>
+    <description></description>
   </game>
   
   <game>
@@ -312,6 +360,30 @@
   <type>html</type>
     <aspect_ratio>16:9</aspect_ratio>
     <description>Roguelike cooking deckbuilder</description>
+  </game>
+  
+  <game>
+    <id>/games/henrystikmin/infiltratingtheairship/index</id>
+    <title>Infiltrating the Airship</title>
+    <url>https://mesaredux.mesagrey.ca/games/henrystikmin/infiltratingtheairship/index/</url>
+    <path>_games/henrystikmin/infiltratingtheairship/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>flash</type>
+    <aspect_ratio>12:8</aspect_ratio>
+    <description>Accept the government&apos;s deal to board the Topat Clan airship, experimenting with gadgets to capture the crew.</description>
+  </game>
+  
+  <game>
+    <id>/games/jumpking/index</id>
+    <title>Jump King</title>
+    <url>https://mesaredux.mesagrey.ca/games/jumpking/index/</url>
+    <path>_games/jumpking/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>4:3</aspect_ratio>
+    <description>Jump King is a challenging platformer where players ascend by making precise jumps.</description>
   </game>
   
   <game>
@@ -675,6 +747,102 @@
   </game>
   
   <game>
+    <id>/games/riddleschool/riddleschool1/index</id>
+    <title>Riddle School</title>
+    <url>https://mesaredux.mesagrey.ca/games/riddleschool/riddleschool1/index/</url>
+    <path>_games/riddleschool/riddleschool1/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>flash</type>
+    <aspect_ratio>4:3</aspect_ratio>
+    <description>Click through classrooms, nab goofy items, and help Phil Eggtree ditch Riddle School for the first time.</description>
+  </game>
+  
+  <game>
+    <id>/games/riddleschool/riddleschool2/index</id>
+    <title>Riddle School 2</title>
+    <url>https://mesaredux.mesagrey.ca/games/riddleschool/riddleschool2/index/</url>
+    <path>_games/riddleschool/riddleschool2/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>flash</type>
+    <aspect_ratio>4:3</aspect_ratio>
+    <description>Sneak out of band class again by piecing together oddball clues and pranking your way past the faculty.</description>
+  </game>
+  
+  <game>
+    <id>/games/riddleschool/riddleschool3/index</id>
+    <title>Riddle School 3</title>
+    <url>https://mesaredux.mesagrey.ca/games/riddleschool/riddleschool3/index/</url>
+    <path>_games/riddleschool/riddleschool3/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>flash</type>
+    <aspect_ratio>4:3</aspect_ratio>
+    <description>Crack tougher logic puzzles across the upgraded school, combining gadgets and authorizing escapes for Phil once more.</description>
+  </game>
+  
+  <game>
+    <id>/games/riddleschool/riddleschool4/index</id>
+    <title>Riddle School 4</title>
+    <url>https://mesaredux.mesagrey.ca/games/riddleschool/riddleschool4/index/</url>
+    <path>_games/riddleschool/riddleschool4/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>flash</type>
+    <aspect_ratio>4:3</aspect_ratio>
+    <description>Witness Phil&apos;s quest take a shocking turn in this tongue-in-cheek mini sequel that flips the series on its head.</description>
+  </game>
+  
+  <game>
+    <id>/games/riddleschool/riddleschool5/index</id>
+    <title>Riddle School 5</title>
+    <url>https://mesaredux.mesagrey.ca/games/riddleschool/riddleschool5/index/</url>
+    <path>_games/riddleschool/riddleschool5/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>flash</type>
+    <aspect_ratio>4:3</aspect_ratio>
+    <description>Lead the entire escape team through the world&apos;s strangest school, uncovering a deep alien conspiracy in the process.</description>
+  </game>
+  
+  <game>
+    <id>/games/riddleschool/index</id>
+    <title>Riddle School Series</title>
+    <url>https://mesaredux.mesagrey.ca/games/riddleschool/index/</url>
+    <path>_games/riddleschool/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio></aspect_ratio>
+    <description></description>
+  </game>
+  
+  <game>
+    <id>/games/riddleschool/riddletransfer/index</id>
+    <title>Riddle Transfer</title>
+    <url>https://mesaredux.mesagrey.ca/games/riddleschool/riddletransfer/index/</url>
+    <path>_games/riddleschool/riddletransfer/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>flash</type>
+    <aspect_ratio>4:3</aspect_ratio>
+    <description>Break into the government lab holding your friends captive, solving sci-fi riddles to outsmart the Riddle Transfer staff.</description>
+  </game>
+  
+  <game>
+    <id>/games/riddleschool/riddletransfer2/index</id>
+    <title>Riddle Transfer 2</title>
+    <url>https://mesaredux.mesagrey.ca/games/riddleschool/riddletransfer2/index/</url>
+    <path>_games/riddleschool/riddletransfer2/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>flash</type>
+    <aspect_ratio>4:3</aspect_ratio>
+    <description>Finish Phil&apos;s saga by shutting down Viz&apos;s plan, swapping between teammates and worlds to save Earth and Zone 5.1.</description>
+  </game>
+  
+  <game>
     <id>/games/ruffle/index</id>
     <title>Ruffle (Flash Emulator)</title>
     <url>https://mesaredux.mesagrey.ca/games/ruffle/index/</url>
@@ -771,6 +939,30 @@
   </game>
   
   <game>
+    <id>/games/spelunky/index</id>
+    <title>Spelunky Classic</title>
+    <url>https://mesaredux.mesagrey.ca/games/spelunky/index/</url>
+    <path>_games/spelunky/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>4:3</aspect_ratio>
+    <description>A demo of the roguelike dungeon crawler, featuring randomly generated levels, unique items, and challenging enemies.</description>
+  </game>
+  
+  <game>
+    <id>/games/henrystikmin/stealingthediamond/index</id>
+    <title>Stealing the Diamond</title>
+    <url>https://mesaredux.mesagrey.ca/games/henrystikmin/stealingthediamond/index/</url>
+    <path>_games/henrystikmin/stealingthediamond/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>flash</type>
+    <aspect_ratio>12:8</aspect_ratio>
+    <description>Pull off a heist on the Tunisian Diamond by choosing stealth, chaos, or clever combos across multiple endings.</description>
+  </game>
+  
+  <game>
     <id>/games/sm64/index</id>
     <title>Super Mario 64</title>
     <url>https://mesaredux.mesagrey.ca/games/sm64/index/</url>
@@ -843,6 +1035,18 @@
   </game>
   
   <game>
+    <id>/games/smashflash/index</id>
+    <title>Super Smash Flash</title>
+    <url>https://mesaredux.mesagrey.ca/games/smashflash/index/</url>
+    <path>_games/smashflash/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>flash</type>
+    <aspect_ratio>16:9</aspect_ratio>
+    <description>Fan-made crossover fighter where Nintendo and web icons clash in fast-paced platform battles.</description>
+  </game>
+  
+  <game>
     <id>/games/tetrisdx/index</id>
     <title>Tetris DX</title>
     <url>https://mesaredux.mesagrey.ca/games/tetrisdx/index/</url>
@@ -852,6 +1056,18 @@
   <type>retroarch</type>
     <aspect_ratio>16:7.75</aspect_ratio>
     <description>Classic block based puzzle game about dropping blocks and forming lines.</description>
+  </game>
+  
+  <game>
+    <id>/games/tboi/index</id>
+    <title>The Binding of Isaac: Demo</title>
+    <url>https://mesaredux.mesagrey.ca/games/tboi/index/</url>
+    <path>_games/tboi/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>flash</type>
+    <aspect_ratio>4:3</aspect_ratio>
+    <description>A demo of the roguelike dungeon crawler, featuring randomly generated levels, unique items, and challenging enemies.</description>
   </game>
   
   <game>
@@ -900,6 +1116,18 @@
   <type>dos</type>
     <aspect_ratio>4:3</aspect_ratio>
     <description>Face demonic hordes in the classic first-person shooter that defined a genre.</description>
+  </game>
+  
+  <game>
+    <id>/games/thereisnogame/index</id>
+    <title>There Is No Game</title>
+    <url>https://mesaredux.mesagrey.ca/games/thereisnogame/index/</url>
+    <path>_games/thereisnogame/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>4:3</aspect_ratio>
+    <description>There Is No Game is a comedic, fourth-wall-breaking puzzle adventure where players discover that there is, in fact, a game.</description>
   </game>
   
   <game>
