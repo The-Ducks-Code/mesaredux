@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<games exported_at="2025-10-21T22:21:52+00:00" site="MESλREDUX" url="https://mesaredux.mesagrey.ca">
+<games exported_at="2025-10-22T00:23:05+00:00" site="MESλREDUX" url="https://mesaredux.mesagrey.ca">
   
   
   <game>
@@ -288,6 +288,18 @@
   <type>flash</type>
     <aspect_ratio>12:8</aspect_ratio>
     <description>Escape the Prison in this sequel to &apos;Breaking the Bank&apos;!</description>
+  </game>
+  
+  <game>
+    <id>/games/hungryhorrors/index</id>
+    <title>Hungry Horrors</title>
+    <url>https://mesaredux.mesagrey.ca/games/hungryhorrors/index/</url>
+    <path>_games/hungryhorrors/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>16:9</aspect_ratio>
+    <description>Roguelike cooking deckbuilder</description>
   </game>
   
   <game>
