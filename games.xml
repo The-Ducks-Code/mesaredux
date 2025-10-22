@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<games exported_at="2025-10-22T02:25:07+00:00" site="MESλREDUX" url="https://mesaredux.mesagrey.ca">
+<games exported_at="2025-10-22T03:26:22+00:00" site="MESλREDUX" url="https://mesaredux.mesagrey.ca">
   
   
   <game>
@@ -24,6 +24,78 @@
   <type>flash</type>
     <aspect_ratio>12:6</aspect_ratio>
     <description>Collect all of the achievements in this unique platformer!</description>
+  </game>
+  
+  <game>
+    <id>/games/btd/index</id>
+    <title>BTD Series</title>
+    <url>https://mesaredux.mesagrey.ca/games/btd/index/</url>
+    <path>_games/btd/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio></aspect_ratio>
+    <description></description>
+  </game>
+  
+  <game>
+    <id>/games/btd/btd1/index</id>
+    <title>Bloons Tower Defence</title>
+    <url>https://mesaredux.mesagrey.ca/games/btd/btd1/index/</url>
+    <path>_games/btd/btd1/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>flash</type>
+    <aspect_ratio>4:3</aspect_ratio>
+    <description>Pop waves of bloons with dart monkeys and tack towers in the original Bloons Tower Defence.</description>
+  </game>
+  
+  <game>
+    <id>/games/btd/btd2/index</id>
+    <title>Bloons Tower Defence 2</title>
+    <url>https://mesaredux.mesagrey.ca/games/btd/btd2/index/</url>
+    <path>_games/btd/btd2/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>flash</type>
+    <aspect_ratio>4:3</aspect_ratio>
+    <description>Take on tougher bloon waves, unlock ranks, and master new tracks in Bloons Tower Defence 2.</description>
+  </game>
+  
+  <game>
+    <id>/games/btd/btd3/index</id>
+    <title>Bloons Tower Defence 3</title>
+    <url>https://mesaredux.mesagrey.ca/games/btd/btd3/index/</url>
+    <path>_games/btd/btd3/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>flash</type>
+    <aspect_ratio>4:3</aspect_ratio>
+    <description>Deploy new specialty towers and tackle multiple track paths in Bloons Tower Defence 3.</description>
+  </game>
+  
+  <game>
+    <id>/games/btd/btd4/index</id>
+    <title>Bloons Tower Defence 4</title>
+    <url>https://mesaredux.mesagrey.ca/games/btd/btd4/index/</url>
+    <path>_games/btd/btd4/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>1:1</aspect_ratio>
+    <description>Build upgrade paths, unlock specialties, and hold the line on interactive maps in Bloons Tower Defence 4.</description>
+  </game>
+  
+  <game>
+    <id>/games/btd/btd5/index</id>
+    <title>Bloons Tower Defence 5</title>
+    <url>https://mesaredux.mesagrey.ca/games/btd/btd5/index/</url>
+    <path>_games/btd/btd5/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>flash</type>
+    <aspect_ratio>5:4</aspect_ratio>
+    <description>Build the ultimate monkey tower lineup with special agents and upgrades in Bloons Tower Defence 5.</description>
   </game>
   
   <game>
