@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<games exported_at="2025-10-23T07:22:14+00:00" site="MESλREDUX" url="https://mesaredux.mesagrey.ca">
+<games exported_at="2025-10-23T16:34:30+00:00" site="MESλREDUX" url="https://mesaredux.mesagrey.ca">
   
   
   <game>
@@ -1551,15 +1551,15 @@
   </game>
   
   <game>
-    <id>/games/tboi/index</id>
-    <title>The Binding of Isaac: Demo</title>
-    <url>https://mesaredux.mesagrey.ca/games/tboi/index/</url>
-    <path>_games/tboi/index.md</path>
-    <slug>index</slug>
+    <id>/games/tboi/tempremoveillfixlater</id>
+    <title>The Binding of Isaac: Wrath of God</title>
+    <url>https://mesaredux.mesagrey.ca/games/tboi/tempremoveillfixlater/</url>
+    <path>_games/tboi/tempremoveillfixlater.md</path>
+    <slug>tempremoveillfixlater</slug>
   <collection>games</collection>
   <type>flash</type>
     <aspect_ratio>4:3</aspect_ratio>
-    <description>A demo of the roguelike dungeon crawler, featuring randomly generated levels, unique items, and challenging enemies.</description>
+    <description>The roguelike dungeon crawler, featuring randomly generated levels, unique items, and challenging enemies.</description>
   </game>
   
   <game>
