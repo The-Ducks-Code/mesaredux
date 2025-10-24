@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<games exported_at="2025-10-23T18:35:11+00:00" site="MESλREDUX" url="https://mesaredux.mesagrey.ca">
+<games exported_at="2025-10-24T08:17:07+00:00" site="MESλREDUX" url="https://mesaredux.mesagrey.ca">
   
+  
+  <game>
+    <id>/games/10_minutes_till_dawn/index</id>
+    <title>10 Minutes Till Dawn</title>
+    <url>https://mesaredux.mesagrey.ca/games/10_minutes_till_dawn/index/</url>
+    <path>_games/10_minutes_till_dawn/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>16:9</aspect_ratio>
+    <description>Shooter Roguelike.</description>
+  </game>
   
   <game>
     <id>/games/2048/index</id>
@@ -60,6 +72,18 @@
   <type>html</type>
     <aspect_ratio>16:9</aspect_ratio>
     <description>Roguelike deck-building poker game.</description>
+  </game>
+  
+  <game>
+    <id>/games/bejeweled/index</id>
+    <title>Bejeweled</title>
+    <url>https://mesaredux.mesagrey.ca/games/bejeweled/index/</url>
+    <path>_games/bejeweled/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>16:9</aspect_ratio>
+    <description>The Classic Match 3 Puzzle game (better than candy crush)</description>
   </game>
   
   <game>
@@ -183,6 +207,18 @@
   </game>
   
   <game>
+    <id>/games/bison/index</id>
+    <title>Burrito Bison: Launcha Libre</title>
+    <url>https://mesaredux.mesagrey.ca/games/bison/index/</url>
+    <path>_games/bison/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>16:9</aspect_ratio>
+    <description>Launch and sqaush gummies and get a high score!.</description>
+  </game>
+  
+  <game>
     <id>/games/celeste/index</id>
     <title>Celeste Classic</title>
     <url>https://mesaredux.mesagrey.ca/games/celeste/index/</url>
@@ -207,6 +243,78 @@
   </game>
   
   <game>
+    <id>/games/crossyroad/index</id>
+    <title>Crossy Road</title>
+    <url>https://mesaredux.mesagrey.ca/games/crossyroad/index/</url>
+    <path>_games/crossyroad/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>16:9</aspect_ratio>
+    <description>The endless Frogger-like mobile game.</description>
+  </game>
+  
+  <game>
+    <id>/games/cut_the_rope/ctr/index</id>
+    <title>Cut the Rope</title>
+    <url>https://mesaredux.mesagrey.ca/games/cut_the_rope/ctr/index/</url>
+    <path>_games/cut_the_rope/ctr/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>16:9</aspect_ratio>
+    <description>Get Om-Nom his candy in this classic puzzle game.</description>
+  </game>
+  
+  <game>
+    <id>/games/cut_the_rope/ctr_holiday/index/src/index</id>
+    <title>Cut the Rope</title>
+    <url>https://mesaredux.mesagrey.ca/games/cut_the_rope/ctr_holiday/index/src/index/</url>
+    <path>_games/cut_the_rope/ctr_holiday/index/src/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>16:9</aspect_ratio>
+    <description>Get Om-Nom his candy in this classic puzzle game.</description>
+  </game>
+  
+  <game>
+    <id>/games/cut_the_rope/index</id>
+    <title>Cut the Rope Series</title>
+    <url>https://mesaredux.mesagrey.ca/games/cut_the_rope/index/</url>
+    <path>_games/cut_the_rope/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio></aspect_ratio>
+    <description></description>
+  </game>
+  
+  <game>
+    <id>/games/cut_the_rope/ctr_holiday/index</id>
+    <title>Cut the Rope: Holiday Gift</title>
+    <url>https://mesaredux.mesagrey.ca/games/cut_the_rope/ctr_holiday/index/</url>
+    <path>_games/cut_the_rope/ctr_holiday/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>16:9</aspect_ratio>
+    <description>Get Om-Nom his candy in this holiday themed puzzle game.</description>
+  </game>
+  
+  <game>
+    <id>/games/cut_the_rope/ctr_time_travel/index</id>
+    <title>Cut the Rope: Time Travel</title>
+    <url>https://mesaredux.mesagrey.ca/games/cut_the_rope/ctr_time_travel/index/</url>
+    <path>_games/cut_the_rope/ctr_time_travel/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>16:9</aspect_ratio>
+    <description>Get Om-Nom his candy in this puzzle game across time.</description>
+  </game>
+  
+  <game>
     <id>/games/doom/doom2/index</id>
     <title>DOOM II: Hell on Earth</title>
     <url>https://mesaredux.mesagrey.ca/games/doom/doom2/index/</url>
@@ -228,6 +336,42 @@
   <type>html</type>
     <aspect_ratio></aspect_ratio>
     <description></description>
+  </game>
+  
+  <game>
+    <id>/games/digimon/index</id>
+    <title>Digimon Series</title>
+    <url>https://mesaredux.mesagrey.ca/games/digimon/index/</url>
+    <path>_games/digimon/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio></aspect_ratio>
+    <description></description>
+  </game>
+  
+  <game>
+    <id>/games/digimon/dawn/index</id>
+    <title>Digimon World: Dawn</title>
+    <url>https://mesaredux.mesagrey.ca/games/digimon/dawn/index/</url>
+    <path>_games/digimon/dawn/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>retroarch</type>
+    <aspect_ratio>16:7.75</aspect_ratio>
+    <description>The counterpart for Digimon World: Dawn.</description>
+  </game>
+  
+  <game>
+    <id>/games/digimon/dusk/index</id>
+    <title>Digimon World: Dusk</title>
+    <url>https://mesaredux.mesagrey.ca/games/digimon/dusk/index/</url>
+    <path>_games/digimon/dusk/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>retroarch</type>
+    <aspect_ratio>16:7.75</aspect_ratio>
+    <description>The counterpart for Digimon World: Dawn.</description>
   </game>
   
   <game>
@@ -483,6 +627,18 @@
   </game>
   
   <game>
+    <id>/games/fnf/index</id>
+    <title>Friday Night Funkin&apos;</title>
+    <url>https://mesaredux.mesagrey.ca/games/fnf/index/</url>
+    <path>_games/fnf/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>16:9</aspect_ratio>
+    <description>The hit rhythm game from 2020.</description>
+  </game>
+  
+  <game>
     <id>/games/fruitninja/index</id>
     <title>Fruit Ninja</title>
     <url>https://mesaredux.mesagrey.ca/games/fruitninja/index/</url>
@@ -567,6 +723,18 @@
   </game>
   
   <game>
+    <id>/games/jetpackjoyride/index</id>
+    <title>Jetpack Joyride</title>
+    <url>https://mesaredux.mesagrey.ca/games/jetpackjoyride/index/</url>
+    <path>_games/jetpackjoyride/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>16:9</aspect_ratio>
+    <description>Don your bullet jetpack and beat the scientists.</description>
+  </game>
+  
+  <game>
     <id>/games/jumpking/index</id>
     <title>Jump King</title>
     <url>https://mesaredux.mesagrey.ca/games/jumpking/index/</url>
@@ -612,6 +780,54 @@
   <type>html</type>
     <aspect_ratio>16:9</aspect_ratio>
     <description>The original Super Mario Bros. but with a Portal Gun.</description>
+  </game>
+  
+  <game>
+    <id>/games/mario&amp;luigi/index</id>
+    <title>Mario &amp; Luigi Games</title>
+    <url>https://mesaredux.mesagrey.ca/games/mario&amp;luigi/index/</url>
+    <path>_games/mario&amp;luigi/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio></aspect_ratio>
+    <description></description>
+  </game>
+  
+  <game>
+    <id>/games/mario&amp;luigi/bowsersinsidestory/index</id>
+    <title>Mario &amp; Luigi: Bowser&apos;s Inside Story</title>
+    <url>https://mesaredux.mesagrey.ca/games/mario&amp;luigi/bowsersinsidestory/index/</url>
+    <path>_games/mario&amp;luigi/bowsersinsidestory/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>retroarch</type>
+    <aspect_ratio>16:7.75</aspect_ratio>
+    <description>3rd Mario &amp; Luigi game.</description>
+  </game>
+  
+  <game>
+    <id>/games/mario&amp;luigi/partnersintime/index</id>
+    <title>Mario &amp; Luigi: Partner&apos;s in Time</title>
+    <url>https://mesaredux.mesagrey.ca/games/mario&amp;luigi/partnersintime/index/</url>
+    <path>_games/mario&amp;luigi/partnersintime/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>retroarch</type>
+    <aspect_ratio>16:7.75</aspect_ratio>
+    <description>2nd Mario &amp; Luigi game.</description>
+  </game>
+  
+  <game>
+    <id>/games/mario&amp;luigi/superstarsaga/index</id>
+    <title>Mario &amp; Luigi: Superstar Saga</title>
+    <url>https://mesaredux.mesagrey.ca/games/mario&amp;luigi/superstarsaga/index/</url>
+    <path>_games/mario&amp;luigi/superstarsaga/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>retroarch</type>
+    <aspect_ratio>16:7.75</aspect_ratio>
+    <description>1st Mario &amp; Luigi game.</description>
   </game>
   
   <game>
@@ -672,6 +888,18 @@
   <type>html</type>
     <aspect_ratio></aspect_ratio>
     <description></description>
+  </game>
+  
+  <game>
+    <id>/games/mario/nsmb/index</id>
+    <title>New Super Mario Bros.</title>
+    <url>https://mesaredux.mesagrey.ca/games/mario/nsmb/index/</url>
+    <path>_games/mario/nsmb/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>retroarch</type>
+    <aspect_ratio>16:7.75</aspect_ratio>
+    <description>The first of the New Super Mario Bros. games.</description>
   </game>
   
   <game>
@@ -1407,6 +1635,18 @@
   </game>
   
   <game>
+    <id>/games/superhot/index</id>
+    <title>SUPERHOT</title>
+    <url>https://mesaredux.mesagrey.ca/games/superhot/index/</url>
+    <path>_games/superhot/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>16:9</aspect_ratio>
+    <description>SUPER. HOT.</description>
+  </game>
+  
+  <game>
     <id>/games/sandtris/index</id>
     <title>Sandtris</title>
     <url>https://mesaredux.mesagrey.ca/games/sandtris/index/</url>
@@ -1443,6 +1683,54 @@
   </game>
   
   <game>
+    <id>/games/solitairebattle/index</id>
+    <title>Solitaire Battle</title>
+    <url>https://mesaredux.mesagrey.ca/games/solitairebattle/index/</url>
+    <path>_games/solitairebattle/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>2:1.5</aspect_ratio>
+    <description>Roguelike deckbuilder on a solitaire board where the cards you pick up let you attack, synergize, and slay fantastical opponents!</description>
+  </game>
+  
+  <game>
+    <id>/games/sonic/index</id>
+    <title>Sonic Series</title>
+    <url>https://mesaredux.mesagrey.ca/games/sonic/index/</url>
+    <path>_games/sonic/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio></aspect_ratio>
+    <description></description>
+  </game>
+  
+  <game>
+    <id>/games/sonic/sonic1/index</id>
+    <title>Sonic The Hedgehog</title>
+    <url>https://mesaredux.mesagrey.ca/games/sonic/sonic1/index/</url>
+    <path>_games/sonic/sonic1/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>16:9</aspect_ratio>
+    <description>The first game in the sonic series.</description>
+  </game>
+  
+  <game>
+    <id>/games/sonic/sonic2/index</id>
+    <title>Sonic The Hedgehog 2</title>
+    <url>https://mesaredux.mesagrey.ca/games/sonic/sonic2/index/</url>
+    <path>_games/sonic/sonic2/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>16:9</aspect_ratio>
+    <description>The second game in the sonic series.</description>
+  </game>
+  
+  <game>
     <id>/games/spelunky/index</id>
     <title>Spelunky Classic</title>
     <url>https://mesaredux.mesagrey.ca/games/spelunky/index/</url>
@@ -1464,6 +1752,18 @@
   <type>flash</type>
     <aspect_ratio>12:8</aspect_ratio>
     <description>Pull off a heist on the Tunisian Diamond by choosing stealth, chaos, or clever combos across multiple endings.</description>
+  </game>
+  
+  <game>
+    <id>/games/subway/index</id>
+    <title>Subway Surfers</title>
+    <url>https://mesaredux.mesagrey.ca/games/subway/index/</url>
+    <path>_games/subway/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>16:9</aspect_ratio>
+    <description>Rot your brain in this endless runner.</description>
   </game>
   
   <game>
@@ -1599,11 +1899,11 @@
   </game>
   
   <game>
-    <id>/games/tboi/illfixthislater</id>
-    <title>The Binding of Isaac: Wrath of God</title>
-    <url>https://mesaredux.mesagrey.ca/games/tboi/illfixthislater/</url>
-    <path>_games/tboi/illfixthislater</path>
-    <slug></slug>
+    <id>/games/tboi/index</id>
+    <title>The Binding of Isaac: Wrath of the Lamb</title>
+    <url>https://mesaredux.mesagrey.ca/games/tboi/index/</url>
+    <path>_games/tboi/index.md</path>
+    <slug>index</slug>
   <collection>games</collection>
   <type>flash</type>
     <aspect_ratio>4:3</aspect_ratio>
@@ -1668,6 +1968,18 @@
   <type>html</type>
     <aspect_ratio>4:3</aspect_ratio>
     <description>There Is No Game is a comedic, fourth-wall-breaking puzzle adventure where players discover that there is, in fact, a game.</description>
+  </game>
+  
+  <game>
+    <id>/games/three_goblets/index</id>
+    <title>Three Goblets</title>
+    <url>https://mesaredux.mesagrey.ca/games/three_goblets/index/</url>
+    <path>_games/three_goblets/index.md</path>
+    <slug>index</slug>
+  <collection>games</collection>
+  <type>html</type>
+    <aspect_ratio>4:3</aspect_ratio>
+    <description>Retro themed RPG.</description>
   </game>
   
   <game>
