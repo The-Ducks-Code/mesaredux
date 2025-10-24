@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<games exported_at="2025-10-24T08:24:13+00:00" site="MESλREDUX" url="https://mesaredux.mesagrey.ca">
+<games exported_at="2025-10-24T18:15:26+00:00" site="MESλREDUX" url="https://mesaredux.mesagrey.ca">
   
   
   <game>
@@ -736,7 +736,7 @@
   
   <game>
     <id>/games/mario&amp;luigi/bowsersinsidestory/index</id>
-    <title>Mario &amp; Luigi: Bowser&apos;s Inside Story</title>
+    <title>Mario &amp; Luigi: Bowser&apos;s Inside Story TEMP BROKEN</title>
     <url>https://mesaredux.mesagrey.ca/games/mario&amp;luigi/bowsersinsidestory/index/</url>
     <path>_games/mario&amp;luigi/bowsersinsidestory/index.md</path>
     <slug>index</slug>
@@ -748,7 +748,7 @@
   
   <game>
     <id>/games/mario&amp;luigi/partnersintime/index</id>
-    <title>Mario &amp; Luigi: Partner&apos;s in Time</title>
+    <title>Mario &amp; Luigi: Partner&apos;s in Time  TEMP BROKEN</title>
     <url>https://mesaredux.mesagrey.ca/games/mario&amp;luigi/partnersintime/index/</url>
     <path>_games/mario&amp;luigi/partnersintime/index.md</path>
     <slug>index</slug>
